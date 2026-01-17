@@ -1,0 +1,1170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-07 23:41+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: .\main_app\models.py:39 .\templates\main\profile_dashboard.html:170
+#: .\templates\main\profile_dashboard.html:174
+#: .\templates\main\summary.html:113
+msgid "Debit"
+msgstr "출금"
+
+#: .\main_app\models.py:40 .\templates\main\profile_dashboard.html:169
+#: .\templates\main\profile_dashboard.html:173
+#: .\templates\main\summary.html:124 .\templates\main\summary.html:135
+#: .\templates\main\summary.html:146
+msgid "Credit"
+msgstr "입금"
+
+#: .\main_app\models.py:46
+msgid "Pending"
+msgstr "보류 중"
+
+#: .\main_app\models.py:47 .\templates\main\summary.html:120
+#: .\templates\main\summary.html:131 .\templates\main\summary.html:142
+#: .\templates\main\summary.html:153
+msgid "Completed"
+msgstr "완료"
+
+#: .\main_app\models.py:54 .\templates\main\summary.html:136
+msgid "International Transfer"
+msgstr "국제 송금"
+
+#: .\main_app\models.py:55 .\templates\main\cross_border.html:18
+#: .\templates\main\summary.html:114 .\templates\main\summary.html:125
+msgid "Local Transfer"
+msgstr "국내 이체"
+
+#: .\main_app\models.py:56 .\templates\main\summary.html:147
+msgid "Check Deposite"
+msgstr "수표 입금"
+
+#: .\templates\base.html:114
+msgid "FLOXIX BANKING"
+msgstr "FLOXIX BANKING"
+
+#: .\templates\base.html:119
+msgid "About"
+msgstr "소개"
+
+#: .\templates\base.html:122 .\templates\main\index.html:264
+msgid "Services"
+msgstr "서비스"
+
+#: .\templates\base.html:125
+msgid "Team"
+msgstr "팀"
+
+#: .\templates\base.html:128
+msgid "Contact"
+msgstr "연락처"
+
+#: .\templates\base.html:150
+msgid "Access acount"
+msgstr "계정 액세스"
+
+#: .\templates\base.html:167
+msgid "About Financial"
+msgstr "Financial에 대하여"
+
+#: .\templates\base.html:170
+msgid "uk"
+msgstr "영국"
+
+#: .\templates\base.html:182
+msgid "About Our Banking Services"
+msgstr "당사 은행 서비스 소개"
+
+#: .\templates\base.html:184
+msgid ""
+"We offer comprehensive financial services to help you manage your wealth."
+msgstr ""
+"저희는 귀하의 자산 관리를 돕기 위한 포괄적인 금융 서비스를 제공합니다."
+
+#: .\templates\base.html:188
+msgid "Newsletter"
+msgstr "뉴스레터"
+
+#: .\templates\base.html:195
+msgid "Subscribe"
+msgstr "구독"
+
+#: .\templates\base.html:233
+msgid "Copyright 2025 All Rights Reserved by"
+msgstr "Copyright 2025 모든 권리 보유"
+
+#: .\templates\base.html:234
+msgid "Your Trusted Bank"
+msgstr "신뢰받는 은행"
+
+#: .\templates\main\about.html:10
+msgid "WELCOME TO FINANCIAL SERVICES"
+msgstr "금융 서비스에 오신 것을 환영합니다"
+
+#: .\templates\main\about.html:11
+msgid ""
+"At Floxix Internet Banking, we are committed to providing a seamless and "
+"secure online banking experience. Whether you're managing everyday "
+"transactions, planning for the future, or accessing advanced financial "
+"tools, our platform ensures you can easily and safely handle all your "
+"banking needs, anytime and anywhere. Experience the convenience of banking "
+"at your fingertips with Floxix."
+msgstr ""
+"Floxix 인터넷 뱅킹은 원활하고 안전한 온라인 뱅킹 환경을 제공하기 위해 최선을 다하고 있습니다. "
+"일상적인 거래를 처리하시든, 미래를 계획하시든, 또는 고급 금융 도구에 접근하시든 저희 플랫폼은 "
+"언제 어디서나 귀하의 모든 은행 업무를 쉽고 안전하게 처리할 수 있도록 지원합니다. Floxix와 함께 "
+"손끝에서 누리는 편리한 뱅킹을 경험해 보십시오."
+
+#: .\templates\main\check_deposite.html:9
+msgid "Floxix Online Banking Check Debosite"
+msgstr "Floxix 인터넷 뱅킹 수표 입금"
+
+#: .\templates\main\check_deposite.html:11
+msgid "You can deposite checks by snapping the front and back of the check"
+msgstr "수표의 앞면과 뒷면을 촬영하여 수표를 입금할 수 있습니다."
+
+#: .\templates\main\check_deposite.html:14 .\templates\main\other_bank.html:105
+#: .\templates\main\pay_bill.html:14 .\templates\main\transaction_page.html:105
+msgid "Select Account"
+msgstr "계좌 선택"
+
+#: .\templates\main\check_deposite.html:18 .\templates\main\loan.html:31
+#: .\templates\main\other_bank.html:112 .\templates\main\pay_bill.html:31
+#: .\templates\main\profile_dashboard.html:103
+#: .\templates\main\transaction_page.html:112
+msgid "Checking Account"
+msgstr "체킹 계좌"
+
+#: .\templates\main\check_deposite.html:19 .\templates\main\loan.html:33
+#: .\templates\main\pay_bill.html:33 .\templates\main\profile_dashboard.html:84
+msgid "Available Balance"
+msgstr "사용 가능 잔액"
+
+#: .\templates\main\check_deposite.html:25
+msgid "Check Ammount"
+msgstr "수표 금액"
+
+#: .\templates\main\check_deposite.html:34
+msgid "Front of the check"
+msgstr "수표 앞면"
+
+#: .\templates\main\check_deposite.html:43
+msgid "Back of the check"
+msgstr "수표 뒷면"
+
+#: .\templates\main\check_deposite.html:53
+msgid "Submit"
+msgstr "제출"
+
+#: .\templates\main\check_deposite.html:59
+#: .\templates\main\cross_border.html:74
+#: .\templates\main\crypto_deposite.html:83 .\templates\main\kyc.html:24
+#: .\templates\main\loan.html:125 .\templates\main\pay_bill.html:124
+#: .\templates\main\register.html:45 .\templates\main\settings.html:48
+msgid "Loading..."
+msgstr "로딩 중..."
+
+#: .\templates\main\check_deposite.html:61
+#: .\templates\main\cross_border.html:76
+#: .\templates\main\crypto_deposite.html:85 .\templates\main\kyc.html:26
+#: .\templates\main\loan.html:127 .\templates\main\pay_bill.html:126
+#: .\templates\main\register.html:47 .\templates\main\settings.html:50
+msgid "Processing your transfer..."
+msgstr "이체를 처리하는 중입니다..."
+
+#: .\templates\main\check_deposite.html:67
+msgid ""
+"Note: our flash fund fee will be deducted from your account following the "
+"completion of this deposite"
+msgstr ""
+"참고: 즉시 자금 지원 수수료는 본 입금 완료 후 귀하의 계좌에서 차감됩니다."
+
+#: .\templates\main\check_deposite.html:70 .\templates\main\other_bank.html:295
+#: .\templates\main\profile_dashboard.html:197
+#: .\templates\main\transaction_page.html:295
+msgid "@ 2025 Floxix - All Rights Reserved"
+msgstr "@ 2025 Floxix - 모든 권리 보유"
+
+#: .\templates\main\contact.html:8 .\templates\main\index.html:19
+msgid "Contact Us"
+msgstr "문의하기"
+
+#: .\templates\main\contact.html:9
+msgid ""
+"Get in touch with us to explore our banking solutions, receive expert "
+"financial advice, and find the services that best meet your needs."
+msgstr ""
+"귀하의 은행 솔루션을 확인하고 전문적인 재무 조언을 받으며 귀하의 필요에 가장 적합한 서비스를 찾으려면 저희에게 문의하십시오."
+
+#: .\templates\main\contact.html:14
+msgid "Name"
+msgstr "이름"
+
+#: .\templates\main\contact.html:15 .\templates\main\register.html:23
+#: .\templates\main\register.html:24
+msgid "Phone Number"
+msgstr "전화번호"
+
+#: .\templates\main\contact.html:16
+msgid "Email"
+msgstr "이메일"
+
+#: .\templates\main\contact.html:17
+msgid "Message"
+msgstr "메시지"
+
+#: .\templates\main\contact.html:18
+msgid "send"
+msgstr "보내기"
+
+#: .\templates\main\cross_border.html:8
+msgid "Cross-border transfer."
+msgstr "국제 송금."
+
+#: .\templates\main\cross_border.html:9
+msgid ""
+"Cross-border transfer is a fast and safe place to transfer money across "
+"different countries. The funds are deposited into the recipient bank "
+"account, associated with the IBAN or Swift code you have added."
+msgstr ""
+"국제 송금은 서로 다른 국가 간에 빠르고 안전하게 자금을 이체할 수 있는 방법입니다. "
+"자금은 귀하가 추가한 IBAN 또는 SWIFT 코드와 연계된 수취인의 은행 계좌로 입금됩니다."
+
+#: .\templates\main\cross_border.html:30
+msgid "Choose recipient"
+msgstr "수취인 선택"
+
+#: .\templates\main\cross_border.html:33
+msgid "Select a recipient been added"
+msgstr "추가된 수취인을 선택하십시오"
+
+#: .\templates\main\cross_border.html:34
+msgid "no recipient yet"
+msgstr "아직 수취인이 없습니다"
+
+#: .\templates\main\cross_border.html:39 .\templates\main\pay_bill.html:51
+msgid "Choose delivery date"
+msgstr "전송일 선택"
+
+#: .\templates\main\cross_border.html:46 .\templates\main\other_bank.html:168
+#: .\templates\main\pay_bill.html:58 .\templates\main\transaction_page.html:168
+msgid "Amount to Transfer"
+msgstr "이체 금액"
+
+#: .\templates\main\cross_border.html:48 .\templates\main\other_bank.html:178
+#: .\templates\main\transaction_page.html:178
+msgid "Daily Transfer Limit"
+msgstr "일일 이체 한도"
+
+#: .\templates\main\cross_border.html:58
+#: .\templates\main\crypto_deposite.html:75 .\templates\main\loan.html:88
+#: .\templates\main\other_bank.html:208
+#: .\templates\main\transaction_page.html:208
+msgid "Minimum"
+msgstr "최소"
+
+#: .\templates\main\cross_border.html:64 .\templates\main\other_bank.html:247
+#: .\templates\main\transaction_page.html:247
+msgid "Description (optional)"
+msgstr "설명 (선택 사항)"
+
+#: .\templates\main\cross_border.html:68
+#: .\templates\main\crypto_deposite.html:77 .\templates\main\loan.html:118
+#: .\templates\main\pay_bill.html:117 .\templates\main\settings.html:42
+#: .\templates\main\transfer_details.html:70
+msgid "Continue"
+msgstr "계속하기"
+
+#: .\templates\main\crypto_deposite.html:8
+msgid "Manage Digital Assets"
+msgstr "디지털 자산 관리"
+
+#: .\templates\main\crypto_deposite.html:10
+msgid ""
+"Floxix Crypto assets management tool enables users to tie in multiple crypto "
+"accounts and wallets so that they can easily keep an eye on all of their "
+"cryptocurrency holdings using a single dashboard."
+msgstr ""
+"Floxix의 암호화 자산 관리 도구는 사용자가 여러 암호화 계정과 지갑을 연동하여 "
+"단일 대시보드에서 모든 암호화폐 보유를 손쉽게 확인할 수 있도록 합니다."
+
+#: .\templates\main\crypto_deposite.html:25
+msgid "crypto Currencies"
+msgstr "암호화폐"
+
+#: .\templates\main\crypto_deposite.html:33
+msgid "which Crypto Asset will you"
+msgstr "어떤 암호화 자산을"
+
+#: .\templates\main\crypto_deposite.html:33
+msgid "like to Deposite?"
+msgstr "예치하시겠습니까?"
+
+#: .\templates\main\crypto_deposite.html:35
+msgid "Choose Your Preffered Asset"
+msgstr "선호하는 자산을 선택하십시오"
+
+#: .\templates\main\crypto_deposite.html:40
+msgid "Choose Crypto Asset"
+msgstr "암호화 자산 선택"
+
+#: .\templates\main\crypto_deposite.html:46
+msgid "Amount to Deposit"
+msgstr "예치 금액"
+
+#: .\templates\main\index.html:6
+msgid "financial"
+msgstr "금융"
+
+#: .\templates\main\index.html:7
+msgid "Service"
+msgstr "서비스"
+
+#: .\templates\main\index.html:11
+msgid ""
+"We do not just help you reach your financial milestones, we work alongside "
+"you to build lasting relationships that are based on trust, understanding, "
+"and personalized guidance. Our goal is to be a long-term partner in your "
+"financial journey"
+msgstr ""
+"저희는 단순히 귀하의 재무 목표 달성을 돕는 것에 그치지 않고, 신뢰와 이해, 맞춤형 안내를 바탕으로 "
+"지속적인 관계를 구축하기 위해 함께합니다. 저희의 목표는 귀하의 재무 여정에 있어 장기적인 파트너가 되는 것입니다."
+
+#: .\templates\main\index.html:16 .\templates\main\index.html:40
+#: .\templates\main\index.html:82 .\templates\main\index.html:96
+#: .\templates\main\index.html:110 .\templates\main\index.html:124
+#: .\templates\main\index.html:145 .\templates\main\services.html:20
+#: .\templates\main\services.html:31 .\templates\main\services.html:41
+#: .\templates\main\services.html:51
+msgid "Read More"
+msgstr "자세히 보기"
+
+#: .\templates\main\index.html:33
+msgid "WELCOME TO FLOXIX BANKING"
+msgstr "FLOXIX BANKING에 오신 것을 환영합니다"
+
+#: .\templates\main\index.html:36
+msgid ""
+"At Floxix Banking, we are committed to providing a seamless and secure "
+"online banking experience. Whether you're managing everyday transactions, "
+"planning for the future, or accessing advanced financial tools, our platform "
+"ensures you can easily and safely handle all your banking needs, anytime and "
+"anywhere. Experience the convenience of banking at your fingertips with "
+"Floxix."
+msgstr ""
+"Floxix Banking은 원활하고 안전한 온라인 뱅킹 경험을 제공하기 위해 최선을 다하고 있습니다. "
+"일상 거래를 관리하시든, 미래를 계획하시든, 고급 금융 도구를 이용하시든, 저희 플랫폼은 "
+"언제 어디서나 귀하의 은행 업무를 쉽고 안전하게 처리할 수 있도록 보장합니다. Floxix와 함께 "
+"손끝에서 누리는 편리한 뱅킹을 경험하십시오."
+
+#: .\templates\main\index.html:61 .\templates\main\services.html:8
+msgid "WHAT WE DO"
+msgstr "저희가 하는 일"
+
+#: .\templates\main\index.html:63
+msgid ""
+" At Floxix Internet Banking, we offer a wide range of\n"
+"      financial services designed to meet your unique needs. From everyday\n"
+"      banking transactions to personalized financial planning, we provide\n"
+"      secure, easy-to-use tools that help you manage your money with "
+"confidence.\n"
+"      Our goal is to make banking simpler, more efficient, and accessible, "
+"so\n"
+"      you can focus on what matters most to you. "
+msgstr ""
+"Floxix 인터넷 뱅킹에서는 귀하의 고유한 요구를 충족하기 위해 설계된 다양한 금융 서비스를 제공합니다. "
+"일상적인 은행 거래부터 개인화된 재무 계획에 이르기까지, 저희는 귀하가 자신 있게 자금을 관리할 수 있도록 "
+"안전하고 사용하기 쉬운 도구를 제공합니다. 저희의 목표는 은행 업무를 더 간단하고 효율적이며 접근 가능하게 하여 "
+"귀하가 중요한 것에 집중하실 수 있도록 하는 것입니다."
+
+#: .\templates\main\index.html:77 .\templates\main\services.html:17
+msgid "Account Management"
+msgstr "계좌 관리"
+
+#: .\templates\main\index.html:79 .\templates\main\services.html:18
+msgid "Secure and efficient account management solutions."
+msgstr "안전하고 효율적인 계좌 관리 솔루션"
+
+#: .\templates\main\index.html:91 .\templates\main\services.html:28
+msgid "Financial Advisory"
+msgstr "재무 자문"
+
+#: .\templates\main\index.html:93 .\templates\main\services.html:29
+msgid "Expert advice to help you manage your finances."
+msgstr "재무 관리를 도와드리는 전문가의 조언"
+
+#: .\templates\main\index.html:105 .\templates\main\services.html:38
+msgid "Investments"
+msgstr "투자"
+
+#: .\templates\main\index.html:107 .\templates\main\services.html:39
+msgid "Grow your wealth with our investment solutions."
+msgstr "저희의 투자 솔루션으로 자산을 증대하십시오"
+
+#: .\templates\main\index.html:119 .\templates\main\services.html:48
+msgid "Financial Planning"
+msgstr "재무 계획"
+
+#: .\templates\main\index.html:121 .\templates\main\services.html:49
+msgid "Plan for your future with our expert guidance."
+msgstr "전문가의 안내로 귀하의 미래를 계획하십시오"
+
+#: .\templates\main\index.html:140
+msgid "Our Banking Services"
+msgstr "당사의 은행 서비스"
+
+#: .\templates\main\index.html:142
+msgid ""
+"We provide secure and reliable financial solutions to help you achieve your "
+"banking goals. Explore our wide range of services tailored to meet your "
+"needs."
+msgstr ""
+"저희는 귀하의 은행 목표 달성을 돕기 위해 안전하고 신뢰할 수 있는 금융 솔루션을 제공합니다. "
+"귀하의 필요에 맞게 구성된 다양한 서비스를 확인해 보십시오."
+
+#: .\templates\main\index.html:169 .\templates\main\index.html:186
+#: .\templates\main\index.html:205 .\templates\main\index.html:222
+msgid "Established Fact"
+msgstr "설립 사실"
+
+#: .\templates\main\index.html:240
+msgid "Years of Business"
+msgstr "사업 연수"
+
+#: .\templates\main\index.html:248
+msgid "Projects Delivered"
+msgstr "완료된 프로젝트"
+
+#: .\templates\main\index.html:256
+msgid "Satisfied Customers"
+msgstr "만족한 고객"
+
+#: .\templates\main\index.html:273 .\templates\main\team.html:9
+msgid "Our Banking Team and Experts"
+msgstr "저희 은행의 팀 및 전문가"
+
+#: .\templates\main\index.html:275 .\templates\main\team.html:11
+msgid ""
+"Our experienced banking professionals are dedicated to providing expert "
+"financial advice and solutions, ensuring your success in managing wealth and "
+"investments."
+msgstr ""
+"경험이 풍부한 저희 은행 전문가들은 전문적인 재무 조언과 솔루션을 제공하여 "
+"귀하의 자산 및 투자 관리를 성공적으로 돕기 위해 최선을 다하고 있습니다."
+
+#: .\templates\main\index.html:282 .\templates\main\team.html:18
+msgid "Branch Manager"
+msgstr "지점장"
+
+#: .\templates\main\index.html:303 .\templates\main\team.html:39
+msgid "Financial Advisor"
+msgstr "재무 상담사"
+
+#: .\templates\main\index.html:324 .\templates\main\team.html:60
+msgid "Loan Officer"
+msgstr "대출 담당자"
+
+#: .\templates\main\index.html:345 .\templates\main\team.html:81
+msgid "Customer Service"
+msgstr "고객 서비스"
+
+#: .\templates\main\index.html:388 .\templates\main\index.html:421
+#: .\templates\main\index.html:454
+msgid "What Our Clients Say"
+msgstr "고객 평가"
+
+#: .\templates\main\index.html:416
+msgid ""
+"\"The banking services provided have been exceptional. They have helped us "
+"streamline our financial processes and plan for the future with confidence.\""
+msgstr ""
+"\"제공된 은행 서비스는 탁월했습니다. 해당 서비스는 저희의 재무 프로세스를 효율화하고 "
+"미래를 자신 있게 계획하는 데 큰 도움이 되었습니다.\""
+
+#: .\templates\main\index.html:449
+msgid ""
+"\"Their financial advisory services have been a game changer for our "
+"business, We are now more informed and empowered to make strategic decisions."
+"\""
+msgstr ""
+"\"그들의 재무 자문 서비스는 저희 비즈니스에 큰 전환점이 되었습니다. "
+"이제 저희는 보다 많은 정보를 바탕으로 전략적 결정을 내릴 수 있게 되었습니다.\""
+
+#: .\templates\main\index.html:480
+msgid ""
+"\"The investment options offered have significantly grown our portfolio, and "
+"we feel confident in our financial future.\""
+msgstr ""
+"\"제공된 투자 옵션은 저희 포트폴리오를 크게 성장시켰으며, 저희는 재무적 미래에 대해 "
+"신뢰를 갖게 되었습니다.\""
+
+#: .\templates\main\kyc.html:8
+msgid "KYC Verification"
+msgstr "KYC 신원 확인"
+
+#: .\templates\main\kyc.html:9
+msgid ""
+"To comply with regulation each participant will have to go through identity "
+"verification (KYC/AML) to prevent fraud cases"
+msgstr ""
+"규정을 준수하기 위해 각 참여자는 사기 방지를 위해 신원 확인(KYC/AML)을 거쳐야 합니다."
+
+#: .\templates\main\kyc.html:15
+msgid ""
+"You have not submitted your necessary documents to verify your identity. In "
+"order to continue using Floxix online banking products, please verify your "
+"identity"
+msgstr ""
+"신원 확인을 위해 필요한 서류를 제출하지 않으셨습니다. Floxix 온라인 뱅킹 서비스를 계속 이용하시려면 "
+"신원 확인을 진행해 주시기 바랍니다."
+
+#: .\templates\main\kyc.html:17
+msgid "Click here to complete your KYC"
+msgstr "KYC를 완료하려면 여기를 클릭하십시오"
+
+#: .\templates\main\loan.html:5
+msgid "Apply For Floxix Loan"
+msgstr "Floxix 대출 신청"
+
+#: .\templates\main\loan.html:14
+msgid "Account In Account"
+msgstr "계좌 내 계좌"
+
+#: .\templates\main\loan.html:41
+msgid "Credit Facility"
+msgstr "신용 한도"
+
+#: .\templates\main\loan.html:46
+msgid "Select Loan/Credit Facility"
+msgstr "대출/신용 한도 선택"
+
+#: .\templates\main\loan.html:47
+msgid "no current loans"
+msgstr "현재 대출 없음"
+
+#: .\templates\main\loan.html:51
+msgid "Repayment date"
+msgstr "상환일"
+
+#: .\templates\main\loan.html:58
+msgid "Loan Amount"
+msgstr "대출 금액"
+
+#: .\templates\main\loan.html:89
+msgid "Maximum"
+msgstr "최대"
+
+#: .\templates\main\loan.html:107
+msgid "Why do you want to take a loan?"
+msgstr "대출을 신청하시는 이유는 무엇입니까?"
+
+#: .\templates\main\login.html:9
+msgid "Sign-in"
+msgstr "로그인"
+
+#: .\templates\main\login.html:11
+msgid "Access the Floxix banking panel using your Account number and password."
+msgstr "계좌 번호와 비밀번호로 Floxix 뱅킹 패널에 접속하십시오."
+
+#: .\templates\main\login.html:14 .\templates\main\other_bank.html:122
+#: .\templates\main\transaction_page.html:122
+msgid "Account Number"
+msgstr "계좌 번호"
+
+#: .\templates\main\login.html:15
+msgid "Enter your account number"
+msgstr "계좌 번호를 입력하십시오"
+
+#: .\templates\main\login.html:17 .\templates\main\register.html:32
+msgid "Password"
+msgstr "비밀번호"
+
+#: .\templates\main\login.html:18
+msgid "Enter your password"
+msgstr "비밀번호를 입력하십시오"
+
+#: .\templates\main\login.html:20
+msgid "Log in"
+msgstr "로그인"
+
+#: .\templates\main\login.html:22
+msgid "Forgotten password?"
+msgstr "비밀번호를 잊으셨습니까?"
+
+#: .\templates\main\login.html:27
+msgid "Create new account"
+msgstr "새 계정 만들기"
+
+#: .\templates\main\other_bank.html:102
+#: .\templates\main\transaction_page.html:102
+msgid "Transfer To a Floxix Account"
+msgstr "Floxix 계좌로 이체"
+
+#: .\templates\main\other_bank.html:136
+#: .\templates\main\transaction_page.html:136
+msgid "Recipient account number"
+msgstr "수취인 계좌 번호"
+
+#: .\templates\main\other_bank.html:144
+#: .\templates\main\transaction_page.html:144
+msgid "Holder Name"
+msgstr "예금주 이름"
+
+#: .\templates\main\other_bank.html:158
+#: .\templates\main\transaction_page.html:158
+msgid "Account holder name"
+msgstr "계좌 예금주 이름"
+
+#: .\templates\main\other_bank.html:226
+#: .\templates\main\transaction_page.html:226
+msgid "Bank name"
+msgstr "은행명"
+
+#: .\templates\main\other_bank.html:257
+#: .\templates\main\transaction_page.html:257
+msgid "Transaction PIN"
+msgstr "거래 PIN"
+
+#: .\templates\main\other_bank.html:266
+#: .\templates\main\transaction_page.html:266
+msgid "Enter 4-digit PIN"
+msgstr "4자리 PIN을 입력하십시오"
+
+#: .\templates\main\other_bank.html:273
+#: .\templates\main\transaction_page.html:273
+msgid "Your PIN is required to complete the transfer."
+msgstr "이체를 완료하려면 PIN이 필요합니다."
+
+#: .\templates\main\other_bank.html:284
+#: .\templates\main\transaction_page.html:284
+msgid "Continue to Next Step"
+msgstr "다음 단계로 계속하기"
+
+#: .\templates\main\pay_bill.html:5
+msgid "Floxix Online Banking Bills Payment"
+msgstr "Floxix 인터넷 뱅킹 요금 결제"
+
+#: .\templates\main\pay_bill.html:41 .\templates\main\pay_bill.html:46
+msgid "Select a bill to pay"
+msgstr "결제할 청구서를 선택하십시오"
+
+#: .\templates\main\pay_bill.html:47
+msgid "no bills yet"
+msgstr "아직 청구서가 없습니다"
+
+#: .\templates\main\pay_bill.html:89
+msgid "Bill pay fee will be deducted"
+msgstr "청구서 결제 수수료가 차감됩니다"
+
+#: .\templates\main\pay_bill.html:106
+msgid "Memo (optional)"
+msgstr "메모 (선택 사항)"
+
+#: .\templates\main\profile.html:36
+msgid "Do you know about our latest update?"
+msgstr "최신 업데이트에 대해 알고 계십니까?"
+
+#: .\templates\main\profile.html:38
+msgid "An overview of ours is now available..."
+msgstr "저희의 개요가 이제 제공됩니다..."
+
+#: .\templates\main\profile.html:49
+msgid "Connected"
+msgstr "연결됨"
+
+#: .\templates\main\profile.html:74
+msgid "Logout"
+msgstr "로그아웃"
+
+#: .\templates\main\profile.html:90
+msgid "AVAILABLE BALANCE"
+msgstr "사용 가능 잔액"
+
+#: .\templates\main\profile.html:112
+msgid "Income"
+msgstr "수입"
+
+#: .\templates\main\profile.html:113
+msgid "Debits"
+msgstr "출금 내역"
+
+#: .\templates\main\profile.html:132
+msgid "TRANSFER"
+msgstr "이체"
+
+#: .\templates\main\profile.html:135
+msgid "PAY BILLS"
+msgstr "청구서 결제"
+
+#: .\templates\main\profile.html:141
+msgid "MENU"
+msgstr "메뉴"
+
+#: .\templates\main\profile.html:145
+msgid "Dashboard"
+msgstr "대시보드"
+
+#: .\templates\main\profile.html:150
+msgid "My Account"
+msgstr "내 계좌"
+
+#: .\templates\main\profile.html:155
+msgid "Account Summary"
+msgstr "계좌 요약"
+
+#: .\templates\main\profile.html:170
+msgid "Send Money"
+msgstr "송금"
+
+#: .\templates\main\profile.html:183
+msgid "Floxix Transfer"
+msgstr "Floxix 이체"
+
+#: .\templates\main\profile.html:196
+msgid "Other bank transfer"
+msgstr "다른 은행 이체"
+
+#: .\templates\main\profile.html:209
+msgid "Cross-border transfer"
+msgstr "국제 송금"
+
+#: .\templates\main\profile.html:216
+msgid "Cross-border Transfer"
+msgstr "국제 송금"
+
+#: .\templates\main\profile.html:221
+msgid "Deposit Check"
+msgstr "수표 입금"
+
+#: .\templates\main\profile.html:226
+msgid "Pay Bills"
+msgstr "청구서 결제"
+
+#: .\templates\main\profile.html:231
+msgid "Virtual Cards"
+msgstr "가상 카드"
+
+#: .\templates\main\profile.html:246
+msgid "Crypto Currency"
+msgstr "암호화폐"
+
+#: .\templates\main\profile.html:259
+msgid "Manage Assets"
+msgstr "자산 관리"
+
+#: .\templates\main\profile.html:272
+msgid "Deposite Crypto"
+msgstr "암호화폐 입금"
+
+#: .\templates\main\profile.html:285
+msgid "Flate Withdraw"
+msgstr "빠른 출금"
+
+#: .\templates\main\profile.html:292
+msgid "KYC Status"
+msgstr "KYC 상태"
+
+#: .\templates\main\profile.html:297
+msgid "Loan/Credit financing"
+msgstr "대출/신용 자금 조달"
+
+#: .\templates\main\profile.html:302
+msgid "Support"
+msgstr "지원"
+
+#: .\templates\main\profile.html:307
+msgid "Account Settings"
+msgstr "계정 설정"
+
+#: .\templates\main\profile_dashboard.html:8
+msgid "Chat"
+msgstr "채팅"
+
+#: .\templates\main\profile_dashboard.html:21
+msgid "Chat with Us"
+msgstr "저희와 채팅하기"
+
+#: .\templates\main\profile_dashboard.html:39
+msgid "Type a message..."
+msgstr "메시지를 입력하세요..."
+
+#: .\templates\main\profile_dashboard.html:42
+msgid "Send"
+msgstr "전송"
+
+#: .\templates\main\profile_dashboard.html:51
+msgid "Good Day"
+msgstr "안녕하세요"
+
+#: .\templates\main\profile_dashboard.html:52
+msgid "At a glance summary of your account!"
+msgstr "계좌 요약을 한눈에 확인하세요!"
+
+#: .\templates\main\profile_dashboard.html:57
+msgid "Deposit"
+msgstr "입금"
+
+#: .\templates\main\profile_dashboard.html:67
+#: .\templates\main\profile_dashboard.html:104
+msgid "Transfer Fund"
+msgstr "자금 이체"
+
+#: .\templates\main\profile_dashboard.html:75
+msgid "Overview"
+msgstr "개요"
+
+#: .\templates\main\profile_dashboard.html:80
+msgid "Last Login"
+msgstr "최근 로그인"
+
+#: .\templates\main\profile_dashboard.html:93
+msgid "Your IP Address"
+msgstr "귀하의 IP 주소"
+
+#: .\templates\main\profile_dashboard.html:96
+msgid "Loading... "
+msgstr "로딩 중..."
+
+#: .\templates\main\profile_dashboard.html:111
+msgid "Loans and lines of credit"
+msgstr "대출 및 신용한도"
+
+#: .\templates\main\profile_dashboard.html:112
+msgid "Pay bills"
+msgstr "청구서 결제"
+
+#: .\templates\main\profile_dashboard.html:116
+msgid "Business Support Loan"
+msgstr "기업 지원 대출"
+
+#: .\templates\main\profile_dashboard.html:120
+msgid "FICO Credit Score"
+msgstr "FICO 신용 점수"
+
+#: .\templates\main\profile_dashboard.html:130
+msgid "Recent Transaction Activities"
+msgstr "최근 거래 활동"
+
+#: .\templates\main\profile_dashboard.html:131
+msgid "All"
+msgstr "전체"
+
+#: .\templates\main\profile_dashboard.html:142 .\templates\main\summary.html:73
+msgid "Amount"
+msgstr "금액"
+
+#: .\templates\main\profile_dashboard.html:154
+msgid "View Details"
+msgstr "상세 보기"
+
+#: .\templates\main\profile_dashboard.html:159
+msgid "No history yet"
+msgstr "아직 기록이 없습니다"
+
+#: .\templates\main\profile_dashboard.html:166
+msgid "Balance Flow"
+msgstr "잔고 흐름"
+
+#: .\templates\main\profile_dashboard.html:187
+msgid "We're here to help you!"
+msgstr "저희가 도와드리겠습니다!"
+
+#: .\templates\main\profile_dashboard.html:188
+msgid ""
+"Ask a question or file a support ticket, manage request, report and issues. "
+"Our support team will get"
+msgstr ""
+"질문을 하시거나 지원 티켓을 제출하여 요청, 보고서 및 문제를 관리하십시오. "
+"저희 지원 팀이"
+
+#: .\templates\main\profile_dashboard.html:188
+msgid "back to you by email"
+msgstr "이메일로 회신해 드립니다"
+
+#: .\templates\main\profile_dashboard.html:191
+msgid "Get a Support Now"
+msgstr "지금 지원받기"
+
+#: .\templates\main\register.html:9
+msgid "Create Your Account"
+msgstr "계정 생성"
+
+#: .\templates\main\register.html:11
+msgid "Fill in the details below to create your new Floxix Bank account."
+msgstr "새 Floxix 은행 계좌를 생성하려면 아래 정보를 입력해 주십시오."
+
+#: .\templates\main\register.html:14 .\templates\main\register.html:15
+msgid "First Name"
+msgstr "이름"
+
+#: .\templates\main\register.html:17 .\templates\main\register.html:18
+msgid "Last Name"
+msgstr "성"
+
+#: .\templates\main\register.html:20 .\templates\main\register.html:21
+msgid "Email Address"
+msgstr "이메일 주소"
+
+#: .\templates\main\register.html:26
+msgid "Date of Birth"
+msgstr "생년월일"
+
+#: .\templates\main\register.html:29
+msgid "Address"
+msgstr "주소"
+
+#: .\templates\main\register.html:30
+msgid "Street Address, City, State, ZIP"
+msgstr "도로명 주소, 도시, 주/도, 우편번호"
+
+#: .\templates\main\register.html:33
+msgid "Create Password"
+msgstr "비밀번호 생성"
+
+#: .\templates\main\register.html:35 .\templates\main\register.html:36
+msgid "Confirm Password"
+msgstr "비밀번호 확인"
+
+#: .\templates\main\register.html:38
+msgid "Register"
+msgstr "등록"
+
+#: .\templates\main\services.html:10
+msgid ""
+"At Floxix Internet Banking, we offer a wide range of financial services "
+"designed to meet your unique needs. From everyday banking transactions to "
+"personalized financial planning, we provide secure, easy-to-use tools that "
+"help you manage your money with confidence. Our goal is to make banking "
+"simpler, more efficient, and accessible, so you can focus on what matters "
+"most to you."
+msgstr ""
+"Floxix 인터넷 뱅킹은 귀하의 고유한 요구를 충족하기 위해 설계된 다양한 금융 서비스를 제공합니다. "
+"일상적인 은행 거래부터 개인화된 재무 계획까지, 저희는 귀하가 자신 있게 자금을 관리할 수 있도록 안전하고 "
+"사용하기 쉬운 도구를 제공합니다. 저희의 목표는 은행 업무를 더 간단하고 효율적이며 접근 가능하게 하여 "
+"귀하가 가장 중요한 것에 집중할 수 있도록 돕는 것입니다."
+
+#: .\templates\main\settings.html:7
+msgid "Customer Service Department"
+msgstr "고객 서비스 부서"
+
+#: .\templates\main\settings.html:12
+msgid "Please select customer service department"
+msgstr "고객 서비스 부서를 선택해 주십시오"
+
+#: .\templates\main\settings.html:13
+msgid "Account management"
+msgstr "계좌 관리"
+
+#: .\templates\main\settings.html:14
+msgid "Transaction support"
+msgstr "거래 지원"
+
+#: .\templates\main\settings.html:15
+msgid "Loan assistance"
+msgstr "대출 지원"
+
+#: .\templates\main\settings.html:16
+msgid "Credit card services"
+msgstr "신용카드 서비스"
+
+#: .\templates\main\settings.html:17
+msgid "Customer inquiries"
+msgstr "고객 문의"
+
+#: .\templates\main\settings.html:18
+msgid "Complaint resolution"
+msgstr "불만 해결"
+
+#: .\templates\main\settings.html:20 .\templates\main\settings.html:30
+msgid "Type your complaints"
+msgstr "불만 사항을 입력하십시오"
+
+#: .\templates\main\settings.html:59
+msgid "Save my activity log"
+msgstr "내 활동 기록 저장"
+
+#: .\templates\main\settings.html:60
+msgid ""
+"You can save all your activity logs including unusual activity detected."
+msgstr ""
+"이상 활동을 포함한 모든 활동 기록을 저장할 수 있습니다."
+
+#: .\templates\main\settings.html:63
+msgid "See recent activity"
+msgstr "최근 활동 보기"
+
+#: .\templates\main\settings.html:70
+msgid "Security pin code"
+msgstr "보안 PIN 코드"
+
+#: .\templates\main\settings.html:71
+msgid ""
+"You can set your pin code. We will ask you this code during the login "
+"attempts and transactions."
+msgstr ""
+"PIN 코드를 설정하실 수 있습니다. 로그인 시도 및 거래 시 해당 코드를 요청할 것입니다."
+
+#: .\templates\main\settings.html:80
+msgid "2FA Authentication"
+msgstr "2단계 인증(2FA)"
+
+#: .\templates\main\settings.html:80
+msgid "Enabled"
+msgstr "활성화됨"
+
+#: .\templates\main\settings.html:81
+msgid ""
+"Secure your account with 2FA security. When it is activated, you need to "
+"enter not only your password but also a special code using 2FA app. You can "
+"receive this code by mobile app."
+msgstr ""
+"2단계 인증(2FA)으로 계정을 보호하십시오. 활성화되면 비밀번호뿐 아니라 2FA 앱에서 생성되는 "
+"특별 코드를 입력해야 합니다. 해당 코드는 모바일 앱으로 받을 수 있습니다."
+
+#: .\templates\main\settings.html:89
+msgid "Browser"
+msgstr "브라우저"
+
+#: .\templates\main\settings.html:92
+msgid "IP"
+msgstr "IP"
+
+#: .\templates\main\settings.html:95
+msgid "Time"
+msgstr "시간"
+
+#: .\templates\main\settings.html:101
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: .\templates\main\settings.html:106
+msgid "Mozilla Firefox"
+msgstr "Mozilla Firefox"
+
+#: .\templates\main\settings.html:111
+msgid "Safari"
+msgstr "Safari"
+
+#: .\templates\main\settings.html:116
+msgid "Microsoft Edge"
+msgstr "Microsoft Edge"
+
+#: .\templates\main\summary.html:61
+msgid "Ref"
+msgstr "참조"
+
+#: .\templates\main\summary.html:65
+msgid "Type"
+msgstr "유형"
+
+#: .\templates\main\summary.html:69
+msgid "Scope"
+msgstr "범위"
+
+#: .\templates\main\summary.html:77
+msgid "Date"
+msgstr "날짜"
+
+#: .\templates\main\summary.html:81
+msgid "Description"
+msgstr "설명"
+
+#: .\templates\main\summary.html:85
+msgid "Status"
+msgstr "상태"
+
+#: .\templates\main\summary.html:119
+msgid "Monthly Savings Deposit"
+msgstr "월간 저축 예금"
+
+#: .\templates\main\summary.html:130
+msgid "Office Rent Payment"
+msgstr "사무실 임대료 지급"
+
+#: .\templates\main\summary.html:141
+msgid "Payment to Supplier"
+msgstr "공급업체에 대한 지급"
+
+#: .\templates\main\summary.html:152
+msgid "Child Health Care"
+msgstr "아동 의료비"
+
+#: .\templates\main\summary.html:162
+msgid "Prev"
+msgstr "이전"
+
+#: .\templates\main\summary.html:172 .\templates\main\summary.html:174
+msgid "Next"
+msgstr "다음"
+
+#: .\templates\main\transfer_details.html:20
+msgid "Transaction"
+msgstr "거래"
+
+#: .\templates\main\transfer_details.html:24
+msgid "Your transaction was completed successfully."
+msgstr "귀하의 거래가 성공적으로 완료되었습니다."
+
+#: .\templates\main\transfer_details.html:26
+msgid "Your transaction is pending. Please wait for confirmation."
+msgstr "귀하의 거래가 보류 중입니다. 확인을 기다려 주십시오."
+
+#: .\templates\main\transfer_details.html:28
+msgid "Transaction status unknown."
+msgstr "거래 상태를 확인할 수 없습니다."
+
+#: .\templates\main\transfer_details.html:35
+msgid "Transaction Details"
+msgstr "거래 상세 정보"
+
+#: .\templates\main\transfer_details.html:38
+msgid "Holder Name:"
+msgstr "예금주명:"
+
+#: .\templates\main\transfer_details.html:42
+msgid "Amount:"
+msgstr "금액:"
+
+#: .\templates\main\transfer_details.html:46
+msgid "Account Number:"
+msgstr "계좌 번호:"
+
+#: .\templates\main\transfer_details.html:50
+msgid "Bank Name:"
+msgstr "은행명:"
+
+#: .\templates\main\transfer_details.html:54
+msgid "Description:"
+msgstr "설명:"
+
+#: .\templates\main\transfer_details.html:58
+msgid "Date:"
+msgstr "날짜:"
+
+#: .\templates\main\transfer_details.html:66
+msgid ""
+"If you did not authorize this transaction, please contact us immediately."
+msgstr ""
+"귀하가 이 거래를 승인하지 않으셨다면 즉시 저희에게 연락해 주십시오."
+
+#: .\templates\main\transfer_details.html:67
+msgid "Thanks,"
+msgstr "감사합니다,"
+
+#: .\templates\main\transfer_details.html:67
+msgid "Floxix Support Team"
+msgstr "Floxix 지원팀"

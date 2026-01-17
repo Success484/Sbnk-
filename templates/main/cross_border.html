@@ -1,0 +1,85 @@
+{%extends 'main/profile.html'%}
+{%load static%}
+{% load i18n %}
+{%block section%}
+<div style="height: 80vh;">
+    <div class="welcome-greetings-section">
+        <div class="welcome-greetings">
+          <h2>{% trans "Cross-border transfer." %}</h2>
+          <p>{% trans "Cross-border transfer is a fast and safe place to transfer money across different countries. The funds are deposited into the recipient bank account, associated with the IBAN or Swift code you have added." %}</p>
+        </div>
+        <div class="full-dashboard-transfer">
+          <div>
+            <a
+              class="bills-link"
+              style="background-color: gray; border: 2px solid rgb(235, 233, 233); margin-left: 10px; color: white;"
+              href="{% url 'transaction_page' %}"
+            >
+              {% trans "Local Transfer" %}
+              <i class="fa-solid fa-wallet"></i>
+            </a>
+        </div>
+        </div>
+    </div>
+    <div style="margin-top: 20px;">
+        <form class="border-form" action="" style="display: flex; justify-content: center;">
+            <div>
+                <div style="display: flex; flex-wrap: wrap; gap: 40px;">
+                    <div>
+                        <label>
+                            {% trans "Choose recipient" %}
+                        </label>
+                        <select class="form-border" style="background-color: rgb(2, 32, 62); color: white;">
+                            <option>{% trans "Select a recipient been added" %}</option>
+                            <option>{% trans "no recipient yet" %}</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>
+                            {% trans "Choose delivery date" %}
+                        </label>
+                        <div class="form-border">
+                            <input class="form-border-input" type="date" name="" id="">
+                        </div>
+                    </div>
+                </div>
+                <label style="font-size: 16px; font-weight: bold;">{% trans "Amount to Transfer" %}</label>
+                    <div style="margin-bottom: -20px; font-size: 14px; display: flex; justify-content: space-between;">
+                        <p>{% trans "Daily Transfer Limit" %}</p>
+                        <p>USD0.00 OF USD5,000,000.00</p>
+                    </div>
+                    <div class="form-border" style="width: 100%;">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; width: 100%;">
+                            <input class="form-border-input amount-input" style="width: 100%;" name="amount" placeholder="2000" min="5" required>
+                            <p>USD</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-top: -15px; font-size: 12px;">
+                        <p>{% trans "Minimum" %}: 5.00 USD</p>
+                        <p>1 USD = 1 USD</p>
+                    </div>
+    
+                    <div class="form-border" style="width: 100%;">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; width: 100%;">
+                            <input class="form-border-input" style="width: 100%;" type="text" name="description" placeholder="{% trans 'Description (optional)' %}:">
+                            <p><i class="fa-solid fa-comment-dots"></i></p>
+                        </div>
+                    </div>
+                    <button type="submit" style="margin-bottom: 75px; width: 100%;" id="blueButton" class="btn btn-primary transfer-button">{% trans "Continue" %}</button>
+                    <div class="modal fade" id="Processing" tabindex="-1" role="dialog" aria-labelledby="loadingModalTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body text-center">
+                                    <div class="spinner-border text-primary" role="status">
+                                        <span class="sr-only">{% trans "Loading..." %}</span>
+                                    </div>
+                                    <p>{% trans "Processing your transfer..." %}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+{%endblock section%}

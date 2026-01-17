@@ -1,0 +1,1196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-07 22:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: .\main_app\models.py:39 .\templates\main\profile_dashboard.html:170
+#: .\templates\main\profile_dashboard.html:174
+#: .\templates\main\summary.html:113
+msgid "Debit"
+msgstr "Débito"
+
+#: .\main_app\models.py:40 .\templates\main\profile_dashboard.html:169
+#: .\templates\main\profile_dashboard.html:173
+#: .\templates\main\summary.html:124 .\templates\main\summary.html:135
+#: .\templates\main\summary.html:146
+msgid "Credit"
+msgstr "Crédito"
+
+#: .\main_app\models.py:46
+msgid "Pending"
+msgstr "Pendente"
+
+#: .\main_app\models.py:47 .\templates\main\summary.html:120
+#: .\templates\main\summary.html:131 .\templates\main\summary.html:142
+#: .\templates\main\summary.html:153
+msgid "Completed"
+msgstr "Concluído"
+
+#: .\main_app\models.py:54 .\templates\main\summary.html:136
+msgid "International Transfer"
+msgstr "Transferência Internacional"
+
+#: .\main_app\models.py:55 .\templates\main\cross_border.html:18
+#: .\templates\main\summary.html:114 .\templates\main\summary.html:125
+msgid "Local Transfer"
+msgstr "Transferência Local"
+
+#: .\main_app\models.py:56 .\templates\main\summary.html:147
+msgid "Check Deposite"
+msgstr "Depósito de Cheque"
+
+#: .\templates\base.html:114
+msgid "FLOXIX BANKING"
+msgstr "BANCO FLÓXIX"
+
+#: .\templates\base.html:119
+msgid "About"
+msgstr "Sobre"
+
+#: .\templates\base.html:122 .\templates\main\index.html:264
+msgid "Services"
+msgstr "Serviços"
+
+#: .\templates\base.html:125
+msgid "Team"
+msgstr "Equipe"
+
+#: .\templates\base.html:128
+msgid "Contact"
+msgstr "Contato"
+
+#: .\templates\base.html:150
+msgid "Access acount"
+msgstr "Acessar conta"
+
+#: .\templates\base.html:167
+msgid "About Financial"
+msgstr "Sobre a Financial"
+
+#: .\templates\base.html:170
+msgid "uk"
+msgstr "uk"
+
+#: .\templates\base.html:182
+msgid "About Our Banking Services"
+msgstr "Sobre Nossos Serviços Bancários"
+
+#: .\templates\base.html:184
+msgid ""
+"We offer comprehensive financial services to help you manage your wealth."
+msgstr ""
+"Oferecemos serviços financeiros abrangentes para ajudar você a gerenciar seu patrimônio."
+
+#: .\templates\base.html:188
+msgid "Newsletter"
+msgstr "Boletim informativo"
+
+#: .\templates\base.html:195
+msgid "Subscribe"
+msgstr "Inscrever-se"
+
+#: .\templates\base.html:233
+msgid "Copyright 2025 All Rights Reserved by"
+msgstr "Copyright 2025 Todos os direitos reservados por"
+
+#: .\templates\base.html:234
+msgid "Your Trusted Bank"
+msgstr "Seu Banco de Confiança"
+
+#: .\templates\main\about.html:10
+msgid "WELCOME TO FINANCIAL SERVICES"
+msgstr "BEM-VINDO AOS SERVIÇOS FINANCEIROS"
+
+#: .\templates\main\about.html:11
+msgid ""
+"At Floxix Internet Banking, we are committed to providing a seamless and "
+"secure online banking experience. Whether you're managing everyday "
+"transactions, planning for the future, or accessing advanced financial "
+"tools, our platform ensures you can easily and safely handle all your "
+"banking needs, anytime and anywhere. Experience the convenience of banking "
+"at your fingertips with Floxix."
+msgstr ""
+"No Internet Banking Floxix, estamos comprometidos em oferecer uma experiência "
+"de banco online segura e sem atritos. Seja para gerenciar transações do dia a "
+"dia, planejar o futuro ou acessar ferramentas financeiras avançadas, nossa "
+"plataforma garante que você possa atender a todas as suas necessidades "
+"bancárias de forma simples e segura, a qualquer hora e em qualquer lugar. "
+"Experimente a conveniência de ter o banco na ponta dos seus dedos com a "
+"Floxix."
+
+#: .\templates\main\check_deposite.html:9
+msgid "Floxix Online Banking Check Debosite"
+msgstr "Depósito de Cheque no Internet Banking Floxix"
+
+#: .\templates\main\check_deposite.html:11
+msgid "You can deposite checks by snapping the front and back of the check"
+msgstr "Você pode depositar cheques fotografando a frente e o verso do cheque."
+
+#: .\templates\main\check_deposite.html:14 .\templates\main\other_bank.html:105
+#: .\templates\main\pay_bill.html:14 .\templates\main\transaction_page.html:105
+msgid "Select Account"
+msgstr "Selecionar Conta"
+
+#: .\templates\main\check_deposite.html:18 .\templates\main\loan.html:31
+#: .\templates\main\other_bank.html:112 .\templates\main\pay_bill.html:31
+#: .\templates\main\profile_dashboard.html:103
+#: .\templates\main\transaction_page.html:112
+msgid "Checking Account"
+msgstr "Conta Corrente"
+
+#: .\templates\main\check_deposite.html:19 .\templates\main\loan.html:33
+#: .\templates\main\pay_bill.html:33 .\templates\main\profile_dashboard.html:84
+msgid "Available Balance"
+msgstr "Saldo Disponível"
+
+#: .\templates\main\check_deposite.html:25
+msgid "Check Ammount"
+msgstr "Valor do Cheque"
+
+#: .\templates\main\check_deposite.html:34
+msgid "Front of the check"
+msgstr "Frente do Cheque"
+
+#: .\templates\main\check_deposite.html:43
+msgid "Back of the check"
+msgstr "Verso do Cheque"
+
+#: .\templates\main\check_deposite.html:53
+msgid "Submit"
+msgstr "Enviar"
+
+#: .\templates\main\check_deposite.html:59
+#: .\templates\main\cross_border.html:74
+#: .\templates\main\crypto_deposite.html:83 .\templates\main\kyc.html:24
+#: .\templates\main\loan.html:125 .\templates\main\pay_bill.html:124
+#: .\templates\main\register.html:45 .\templates\main\settings.html:48
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: .\templates\main\check_deposite.html:61
+#: .\templates\main\cross_border.html:76
+#: .\templates\main\crypto_deposite.html:85 .\templates\main\kyc.html:26
+#: .\templates\main\loan.html:127 .\templates\main\pay_bill.html:126
+#: .\templates\main\register.html:47 .\templates\main\settings.html:50
+msgid "Processing your transfer..."
+msgstr "Processando sua transferência..."
+
+#: .\templates\main\check_deposite.html:67
+msgid ""
+"Note: our flash fund fee will be deducted from your account following the "
+"completion of this deposite"
+msgstr ""
+"Observação: nossa taxa de liberação imediata será deduzida da sua conta após a "
+"conclusão deste depósito."
+
+#: .\templates\main\check_deposite.html:70 .\templates\main\other_bank.html:295
+#: .\templates\main\profile_dashboard.html:197
+#: .\templates\main\transaction_page.html:295
+msgid "@ 2025 Floxix - All Rights Reserved"
+msgstr "@ 2025 Floxix - Todos os direitos reservados"
+
+#: .\templates\main\contact.html:8 .\templates\main\index.html:19
+msgid "Contact Us"
+msgstr "Fale Conosco"
+
+#: .\templates\main\contact.html:9
+msgid ""
+"Get in touch with us to explore our banking solutions, receive expert "
+"financial advice, and find the services that best meet your needs."
+msgstr ""
+"Entre em contato conosco para conhecer nossas soluções bancárias, receber "
+"aconselhamento financeiro especializado e encontrar os serviços que melhor "
+"atendem às suas necessidades."
+
+#: .\templates\main\contact.html:14
+msgid "Name"
+msgstr "Nome"
+
+#: .\templates\main\contact.html:15 .\templates\main\register.html:23
+#: .\templates\main\register.html:24
+msgid "Phone Number"
+msgstr "Número de Telefone"
+
+#: .\templates\main\contact.html:16
+msgid "Email"
+msgstr "E-mail"
+
+#: .\templates\main\contact.html:17
+msgid "Message"
+msgstr "Mensagem"
+
+#: .\templates\main\contact.html:18
+msgid "send"
+msgstr "Enviar"
+
+#: .\templates\main\cross_border.html:8
+msgid "Cross-border transfer."
+msgstr "Transferência internacional."
+
+#: .\templates\main\cross_border.html:9
+msgid ""
+"Cross-border transfer is a fast and safe place to transfer money across "
+"different countries. The funds are deposited into the recipient bank "
+"account, associated with the IBAN or Swift code you have added."
+msgstr ""
+"A transferência internacional é uma forma rápida e segura de enviar dinheiro "
+"entre diferentes países. Os fundos são depositados na conta bancária do "
+"beneficiário, associada ao IBAN ou ao código SWIFT que você adicionou."
+
+#: .\templates\main\cross_border.html:30
+msgid "Choose recipient"
+msgstr "Selecionar destinatário"
+
+#: .\templates\main\cross_border.html:33
+msgid "Select a recipient been added"
+msgstr "Selecione um destinatário já adicionado"
+
+#: .\templates\main\cross_border.html:34
+msgid "no recipient yet"
+msgstr "Ainda não há destinatários"
+
+#: .\templates\main\cross_border.html:39 .\templates\main\pay_bill.html:51
+msgid "Choose delivery date"
+msgstr "Escolher data de envio"
+
+#: .\templates\main\cross_border.html:46 .\templates\main\other_bank.html:168
+#: .\templates\main\pay_bill.html:58 .\templates\main\transaction_page.html:168
+msgid "Amount to Transfer"
+msgstr "Valor a transferir"
+
+#: .\templates\main\cross_border.html:48 .\templates\main\other_bank.html:178
+#: .\templates\main\transaction_page.html:178
+msgid "Daily Transfer Limit"
+msgstr "Limite diário de transferência"
+
+#: .\templates\main\cross_border.html:58
+#: .\templates\main\crypto_deposite.html:75 .\templates\main\loan.html:88
+#: .\templates\main\other_bank.html:208
+#: .\templates\main\transaction_page.html:208
+msgid "Minimum"
+msgstr "Mínimo"
+
+#: .\templates\main\cross_border.html:64 .\templates\main\other_bank.html:247
+#: .\templates\main\transaction_page.html:247
+msgid "Description (optional)"
+msgstr "Descrição (opcional)"
+
+#: .\templates\main\cross_border.html:68
+#: .\templates\main\crypto_deposite.html:77 .\templates\main\loan.html:118
+#: .\templates\main\pay_bill.html:117 .\templates\main\settings.html:42
+#: .\templates\main\transfer_details.html:70
+msgid "Continue"
+msgstr "Continuar"
+
+#: .\templates\main\crypto_deposite.html:8
+msgid "Manage Digital Assets"
+msgstr "Gerenciar Ativos Digitais"
+
+#: .\templates\main\crypto_deposite.html:10
+msgid ""
+"Floxix Crypto assets management tool enables users to tie in multiple crypto "
+"accounts and wallets so that they can easily keep an eye on all of their "
+"cryptocurrency holdings using a single dashboard."
+msgstr ""
+"A ferramenta de gerenciamento de ativos cripto da Floxix permite que os "
+"usuários integrem várias contas e carteiras, para que possam acompanhar "
+"facilmente todas as suas participações em criptomoedas usando um único "
+"painel."
+
+#: .\templates\main\crypto_deposite.html:25
+msgid "crypto Currencies"
+msgstr "Criptomoedas"
+
+#: .\templates\main\crypto_deposite.html:33
+msgid "which Crypto Asset will you"
+msgstr "Qual ativo cripto você"
+
+#: .\templates\main\crypto_deposite.html:33
+msgid "like to Deposite?"
+msgstr "gostaria de depositar?"
+
+#: .\templates\main\crypto_deposite.html:35
+msgid "Choose Your Preffered Asset"
+msgstr "Escolha Seu Ativo Preferido"
+
+#: .\templates\main\crypto_deposite.html:40
+msgid "Choose Crypto Asset"
+msgstr "Escolha o Ativo Cripto"
+
+#: .\templates\main\crypto_deposite.html:46
+msgid "Amount to Deposit"
+msgstr "Valor a depositar"
+
+#: .\templates\main\index.html:6
+msgid "financial"
+msgstr "financeiro"
+
+#: .\templates\main\index.html:7
+msgid "Service"
+msgstr "Serviço"
+
+#: .\templates\main\index.html:11
+msgid ""
+"We do not just help you reach your financial milestones, we work alongside "
+"you to build lasting relationships that are based on trust, understanding, "
+"and personalized guidance. Our goal is to be a long-term partner in your "
+"financial journey"
+msgstr ""
+"Não apenas ajudamos você a alcançar suas metas financeiras; trabalhamos ao "
+"seu lado para construir relacionamentos duradouros baseados em confiança, "
+"compreensão e orientação personalizada. Nosso objetivo é ser um parceiro de "
+"longo prazo na sua jornada financeira."
+
+#: .\templates\main\index.html:16 .\templates\main\index.html:40
+#: .\templates\main\index.html:82 .\templates\main\index.html:96
+#: .\templates\main\index.html:110 .\templates\main\index.html:124
+#: .\templates\main\index.html:145 .\templates\main\services.html:20
+#: .\templates\main\services.html:31 .\templates\main\services.html:41
+#: .\templates\main\services.html:51
+msgid "Read More"
+msgstr "Leia Mais"
+
+#: .\templates\main\index.html:33
+msgid "WELCOME TO FLOXIX BANKING"
+msgstr "BEM-VINDO AO FLOXIX BANKING"
+
+#: .\templates\main\index.html:36
+msgid ""
+"At Floxix Banking, we are committed to providing a seamless and secure "
+"online banking experience. Whether you're managing everyday transactions, "
+"planning for the future, or accessing advanced financial tools, our platform "
+"ensures you can easily and safely handle all your banking needs, anytime and "
+"anywhere. Experience the convenience of banking at your fingertips with "
+"Floxix."
+msgstr ""
+"No Floxix Banking, estamos comprometidos em oferecer uma experiência de "
+"banco online segura e sem atritos. Seja para gerenciar transações do dia a "
+"dia, planejar o futuro ou acessar ferramentas financeiras avançadas, nossa "
+"plataforma assegura que você possa atender a todas as suas necessidades "
+"bancárias de forma simples e segura, a qualquer hora e em qualquer lugar. "
+"Experimente a conveniência de ter o banco na ponta dos seus dedos com a "
+"Floxix."
+
+#: .\templates\main\index.html:61 .\templates\main\services.html:8
+msgid "WHAT WE DO"
+msgstr "O QUE FAZEMOS"
+
+#: .\templates\main\index.html:63
+msgid ""
+" At Floxix Internet Banking, we offer a wide range of\n"
+"      financial services designed to meet your unique needs. From everyday\n"
+"      banking transactions to personalized financial planning, we provide\n"
+"      secure, easy-to-use tools that help you manage your money with "
+"confidence.\n"
+"      Our goal is to make banking simpler, more efficient, and accessible, "
+"so\n"
+"      you can focus on what matters most to you. "
+msgstr ""
+"No Floxix Internet Banking, oferecemos uma ampla gama de serviços financeiros "
+"projetados para atender às suas necessidades únicas. Desde transações "
+"bancárias do dia a dia até planejamento financeiro personalizado, fornecemos "
+"ferramentas seguras e fáceis de usar que ajudam você a gerenciar seu dinheiro "
+"com confiança. Nosso objetivo é tornar o banco mais simples, eficiente e "
+"acessível, para que você possa se concentrar no que mais importa."
+
+#: .\templates\main\index.html:77 .\templates\main\services.html:17
+msgid "Account Management"
+msgstr "Gerenciamento de Contas"
+
+#: .\templates\main\index.html:79 .\templates\main\services.html:18
+msgid "Secure and efficient account management solutions."
+msgstr "Soluções de gerenciamento de contas seguras e eficientes."
+
+#: .\templates\main\index.html:91 .\templates\main\services.html:28
+msgid "Financial Advisory"
+msgstr "Assessoria Financeira"
+
+#: .\templates\main\index.html:93 .\templates\main\services.html:29
+msgid "Expert advice to help you manage your finances."
+msgstr "Conselhos especializados para ajudar você a gerir suas finanças."
+
+#: .\templates\main\index.html:105 .\templates\main\services.html:38
+msgid "Investments"
+msgstr "Investimentos"
+
+#: .\templates\main\index.html:107 .\templates\main\services.html:39
+msgid "Grow your wealth with our investment solutions."
+msgstr "Faça seu patrimônio crescer com nossas soluções de investimento."
+
+#: .\templates\main\index.html:119 .\templates\main\services.html:48
+msgid "Financial Planning"
+msgstr "Planejamento Financeiro"
+
+#: .\templates\main\index.html:121 .\templates\main\services.html:49
+msgid "Plan for your future with our expert guidance."
+msgstr "Planeje seu futuro com a nossa orientação especializada."
+
+#: .\templates\main\index.html:140
+msgid "Our Banking Services"
+msgstr "Nossos Serviços Bancários"
+
+#: .\templates\main\index.html:142
+msgid ""
+"We provide secure and reliable financial solutions to help you achieve your "
+"banking goals. Explore our wide range of services tailored to meet your "
+"needs."
+msgstr ""
+"Oferecemos soluções financeiras seguras e confiáveis para ajudar você a "
+"alcançar seus objetivos bancários. Explore nossa ampla gama de serviços "
+"adaptados para atender às suas necessidades."
+
+#: .\templates\main\index.html:169 .\templates\main\index.html:186
+#: .\templates\main\index.html:205 .\templates\main\index.html:222
+msgid "Established Fact"
+msgstr "Fato Estabelecido"
+
+#: .\templates\main\index.html:240
+msgid "Years of Business"
+msgstr "Anos de Atuação"
+
+#: .\templates\main\index.html:248
+msgid "Projects Delivered"
+msgstr "Projetos Entregues"
+
+#: .\templates\main\index.html:256
+msgid "Satisfied Customers"
+msgstr "Clientes Satisfeitos"
+
+#: .\templates\main\index.html:273 .\templates\main\team.html:9
+msgid "Our Banking Team and Experts"
+msgstr "Nossa Equipe e Especialistas Bancários"
+
+#: .\templates\main\index.html:275 .\templates\main\team.html:11
+msgid ""
+"Our experienced banking professionals are dedicated to providing expert "
+"financial advice and solutions, ensuring your success in managing wealth and "
+"investments."
+msgstr ""
+"Nossos profissionais bancários experientes dedicam-se a fornecer aconselhamento "
+"financeiro especializado e soluções, garantindo seu sucesso na gestão de "
+"patrimônio e investimentos."
+
+#: .\templates\main\index.html:282 .\templates\main\team.html:18
+msgid "Branch Manager"
+msgstr "Gerente de Agência"
+
+#: .\templates\main\index.html:303 .\templates\main\team.html:39
+msgid "Financial Advisor"
+msgstr "Consultor Financeiro"
+
+#: .\templates\main\index.html:324 .\templates\main\team.html:60
+msgid "Loan Officer"
+msgstr "Analista de Empréstimos"
+
+#: .\templates\main\index.html:345 .\templates\main\team.html:81
+msgid "Customer Service"
+msgstr "Atendimento ao Cliente"
+
+#: .\templates\main\index.html:388 .\templates\main\index.html:421
+#: .\templates\main\index.html:454
+msgid "What Our Clients Say"
+msgstr "O que nossos clientes dizem"
+
+#: .\templates\main\index.html:416
+msgid ""
+"\"The banking services provided have been exceptional. They have helped us "
+"streamline our financial processes and plan for the future with confidence.\""
+msgstr ""
+"\"Os serviços bancários fornecidos têm sido excepcionais. Eles nos ajudaram a "
+"otimizar nossos processos financeiros e a planejar o futuro com confiança.\""
+
+#: .\templates\main\index.html:449
+msgid ""
+"\"Their financial advisory services have been a game changer for our "
+"business, We are now more informed and empowered to make strategic decisions."
+"\""
+msgstr ""
+"\"Os serviços de assessoria financeira deles foram um divisor de águas para o "
+"nosso negócio. Agora estamos mais informados e capacitados para tomar "
+"decisões estratégicas.\""
+
+#: .\templates\main\index.html:480
+msgid ""
+"\"The investment options offered have significantly grown our portfolio, and "
+"we feel confident in our financial future.\""
+msgstr ""
+"\"As opções de investimento oferecidas aumentaram significativamente nossa "
+"carteira, e nos sentimos confiantes em nosso futuro financeiro.\""
+
+#: .\templates\main\kyc.html:8
+msgid "KYC Verification"
+msgstr "Verificação KYC"
+
+#: .\templates\main\kyc.html:9
+msgid ""
+"To comply with regulation each participant will have to go through identity "
+"verification (KYC/AML) to prevent fraud cases"
+msgstr ""
+"Para cumprir a regulamentação, cada participante deverá passar por verificação "
+"de identidade (KYC/AML) para prevenir casos de fraude."
+
+#: .\templates\main\kyc.html:15
+msgid ""
+"You have not submitted your necessary documents to verify your identity. In "
+"order to continue using Floxix online banking products, please verify your "
+"identity"
+msgstr ""
+"Você não enviou os documentos necessários para verificar sua identidade. Para "
+"continuar usando os produtos de Internet Banking da Floxix, por favor, "
+"verifique sua identidade."
+
+#: .\templates\main\kyc.html:17
+msgid "Click here to complete your KYC"
+msgstr "Clique aqui para concluir seu KYC"
+
+#: .\templates\main\loan.html:5
+msgid "Apply For Floxix Loan"
+msgstr "Solicitar Empréstimo Floxix"
+
+#: .\templates\main\loan.html:14
+msgid "Account In Account"
+msgstr "Conta em Conta"
+
+#: .\templates\main\loan.html:41
+msgid "Credit Facility"
+msgstr "Facilidade de Crédito"
+
+#: .\templates\main\loan.html:46
+msgid "Select Loan/Credit Facility"
+msgstr "Selecione Empréstimo/Facilidade de Crédito"
+
+#: .\templates\main\loan.html:47
+msgid "no current loans"
+msgstr "Nenhum empréstimo atual"
+
+#: .\templates\main\loan.html:51
+msgid "Repayment date"
+msgstr "Data de Reembolso"
+
+#: .\templates\main\loan.html:58
+msgid "Loan Amount"
+msgstr "Valor do Empréstimo"
+
+#: .\templates\main\loan.html:89
+msgid "Maximum"
+msgstr "Máximo"
+
+#: .\templates\main\loan.html:107
+msgid "Why do you want to take a loan?"
+msgstr "Por que você deseja solicitar um empréstimo?"
+
+#: .\templates\main\login.html:9
+msgid "Sign-in"
+msgstr "Entrar"
+
+#: .\templates\main\login.html:11
+msgid "Access the Floxix banking panel using your Account number and password."
+msgstr "Acesse o painel bancário da Floxix usando seu número de conta e senha."
+
+#: .\templates\main\login.html:14 .\templates\main\other_bank.html:122
+#: .\templates\main\transaction_page.html:122
+msgid "Account Number"
+msgstr "Número da Conta"
+
+#: .\templates\main\login.html:15
+msgid "Enter your account number"
+msgstr "Insira seu número de conta"
+
+#: .\templates\main\login.html:17 .\templates\main\register.html:32
+msgid "Password"
+msgstr "Senha"
+
+#: .\templates\main\login.html:18
+msgid "Enter your password"
+msgstr "Insira sua senha"
+
+#: .\templates\main\login.html:20
+msgid "Log in"
+msgstr "Entrar"
+
+#: .\templates\main\login.html:22
+msgid "Forgotten password?"
+msgstr "Esqueceu a senha?"
+
+#: .\templates\main\login.html:27
+msgid "Create new account"
+msgstr "Criar nova conta"
+
+#: .\templates\main\other_bank.html:102
+#: .\templates\main\transaction_page.html:102
+msgid "Transfer To a Floxix Account"
+msgstr "Transferir para uma Conta Floxix"
+
+#: .\templates\main\other_bank.html:136
+#: .\templates\main\transaction_page.html:136
+msgid "Recipient account number"
+msgstr "Número da conta do beneficiário"
+
+#: .\templates\main\other_bank.html:144
+#: .\templates\main\transaction_page.html:144
+msgid "Holder Name"
+msgstr "Nome do Titular"
+
+#: .\templates\main\other_bank.html:158
+#: .\templates\main\transaction_page.html:158
+msgid "Account holder name"
+msgstr "Nome do titular da conta"
+
+#: .\templates\main\other_bank.html:226
+#: .\templates\main\transaction_page.html:226
+msgid "Bank name"
+msgstr "Nome do banco"
+
+#: .\templates\main\other_bank.html:257
+#: .\templates\main\transaction_page.html:257
+msgid "Transaction PIN"
+msgstr "PIN da Transação"
+
+#: .\templates\main\other_bank.html:266
+#: .\templates\main\transaction_page.html:266
+msgid "Enter 4-digit PIN"
+msgstr "Insira o PIN de 4 dígitos"
+
+#: .\templates\main\other_bank.html:273
+#: .\templates\main\transaction_page.html:273
+msgid "Your PIN is required to complete the transfer."
+msgstr "Seu PIN é necessário para concluir a transferência."
+
+#: .\templates\main\other_bank.html:284
+#: .\templates\main\transaction_page.html:284
+msgid "Continue to Next Step"
+msgstr "Continuar para a Próxima Etapa"
+
+#: .\templates\main\pay_bill.html:5
+msgid "Floxix Online Banking Bills Payment"
+msgstr "Pagamento de Contas no Internet Banking Floxix"
+
+#: .\templates\main\pay_bill.html:41 .\templates\main\pay_bill.html:46
+msgid "Select a bill to pay"
+msgstr "Selecione uma conta a pagar"
+
+#: .\templates\main\pay_bill.html:47
+msgid "no bills yet"
+msgstr "Sem contas ainda"
+
+#: .\templates\main\pay_bill.html:89
+msgid "Bill pay fee will be deducted"
+msgstr "A taxa de pagamento de conta será deduzida"
+
+#: .\templates\main\pay_bill.html:106
+msgid "Memo (optional)"
+msgstr "Observação (opcional)"
+
+#: .\templates\main\profile.html:36
+msgid "Do you know about our latest update?"
+msgstr "Você conhece nossa última atualização?"
+
+#: .\templates\main\profile.html:38
+msgid "An overview of ours is now available..."
+msgstr "Uma visão geral nossa está disponível..."
+
+#: .\templates\main\profile.html:49
+msgid "Connected"
+msgstr "Conectado"
+
+#: .\templates\main\profile.html:74
+msgid "Logout"
+msgstr "Sair"
+
+#: .\templates\main\profile.html:90
+msgid "AVAILABLE BALANCE"
+msgstr "SALDO DISPONÍVEL"
+
+#: .\templates\main\profile.html:112
+msgid "Income"
+msgstr "Receita"
+
+#: .\templates\main\profile.html:113
+msgid "Debits"
+msgstr "Débitos"
+
+#: .\templates\main\profile.html:132
+msgid "TRANSFER"
+msgstr "TRANSFERIR"
+
+#: .\templates\main\profile.html:135
+msgid "PAY BILLS"
+msgstr "PAGAR CONTAS"
+
+#: .\templates\main\profile.html:141
+msgid "MENU"
+msgstr "MENU"
+
+#: .\templates\main\profile.html:145
+msgid "Dashboard"
+msgstr "Painel"
+
+#: .\templates\main\profile.html:150
+msgid "My Account"
+msgstr "Minha Conta"
+
+#: .\templates\main\profile.html:155
+msgid "Account Summary"
+msgstr "Resumo da Conta"
+
+#: .\templates\main\profile.html:170
+msgid "Send Money"
+msgstr "Enviar Dinheiro"
+
+#: .\templates\main\profile.html:183
+msgid "Floxix Transfer"
+msgstr "Transferência Floxix"
+
+#: .\templates\main\profile.html:196
+msgid "Other bank transfer"
+msgstr "Transferência para outro banco"
+
+#: .\templates\main\profile.html:209
+msgid "Cross-border transfer"
+msgstr "Transferência internacional"
+
+#: .\templates\main\profile.html:216
+msgid "Cross-border Transfer"
+msgstr "Transferência Internacional"
+
+#: .\templates\main\profile.html:221
+msgid "Deposit Check"
+msgstr "Depositar Cheque"
+
+#: .\templates\main\profile.html:226
+msgid "Pay Bills"
+msgstr "Pagar Contas"
+
+#: .\templates\main\profile.html:231
+msgid "Virtual Cards"
+msgstr "Cartões Virtuais"
+
+#: .\templates\main\profile.html:246
+msgid "Crypto Currency"
+msgstr "Criptomoeda"
+
+#: .\templates\main\profile.html:259
+msgid "Manage Assets"
+msgstr "Gerenciar Ativos"
+
+#: .\templates\main\profile.html:272
+msgid "Deposite Crypto"
+msgstr "Depositar Cripto"
+
+#: .\templates\main\profile.html:285
+msgid "Flate Withdraw"
+msgstr "Saque Rápido"
+
+#: .\templates\main\profile.html:292
+msgid "KYC Status"
+msgstr "Status KYC"
+
+#: .\templates\main\profile.html:297
+msgid "Loan/Credit financing"
+msgstr "Financiamento/Crédito"
+
+#: .\templates\main\profile.html:302
+msgid "Support"
+msgstr "Suporte"
+
+#: .\templates\main\profile.html:307
+msgid "Account Settings"
+msgstr "Configurações da Conta"
+
+#: .\templates\main\profile_dashboard.html:8
+msgid "Chat"
+msgstr "Chat"
+
+#: .\templates\main\profile_dashboard.html:21
+msgid "Chat with Us"
+msgstr "Converse conosco"
+
+#: .\templates\main\profile_dashboard.html:39
+msgid "Type a message..."
+msgstr "Digite uma mensagem..."
+
+#: .\templates\main\profile_dashboard.html:42
+msgid "Send"
+msgstr "Enviar"
+
+#: .\templates\main\profile_dashboard.html:51
+msgid "Good Day"
+msgstr "Bom dia"
+
+#: .\templates\main\profile_dashboard.html:52
+msgid "At a glance summary of your account!"
+msgstr "Resumo rápido da sua conta!"
+
+#: .\templates\main\profile_dashboard.html:57
+msgid "Deposit"
+msgstr "Depósito"
+
+#: .\templates\main\profile_dashboard.html:67
+#: .\templates\main\profile_dashboard.html:104
+msgid "Transfer Fund"
+msgstr "Transferir Fundos"
+
+#: .\templates\main\profile_dashboard.html:75
+msgid "Overview"
+msgstr "Visão geral"
+
+#: .\templates\main\profile_dashboard.html:80
+msgid "Last Login"
+msgstr "Último login"
+
+#: .\templates\main\profile_dashboard.html:93
+msgid "Your IP Address"
+msgstr "Seu endereço IP"
+
+#: .\templates\main\profile_dashboard.html:96
+msgid "Loading... "
+msgstr "Carregando..."
+
+#: .\templates\main\profile_dashboard.html:111
+msgid "Loans and lines of credit"
+msgstr "Empréstimos e linhas de crédito"
+
+#: .\templates\main\profile_dashboard.html:112
+msgid "Pay bills"
+msgstr "Pagar contas"
+
+#: .\templates\main\profile_dashboard.html:116
+msgid "Business Support Loan"
+msgstr "Empréstimo de Apoio Empresarial"
+
+#: .\templates\main\profile_dashboard.html:120
+msgid "FICO Credit Score"
+msgstr "Pontuação de Crédito FICO"
+
+#: .\templates\main\profile_dashboard.html:130
+msgid "Recent Transaction Activities"
+msgstr "Atividades de Transações Recentes"
+
+#: .\templates\main\profile_dashboard.html:131
+msgid "All"
+msgstr "Todos"
+
+#: .\templates\main\profile_dashboard.html:142 .\templates\main\summary.html:73
+msgid "Amount"
+msgstr "Valor"
+
+#: .\templates\main\profile_dashboard.html:154
+msgid "View Details"
+msgstr "Ver Detalhes"
+
+#: .\templates\main\profile_dashboard.html:159
+msgid "No history yet"
+msgstr "Ainda sem histórico"
+
+#: .\templates\main\profile_dashboard.html:166
+msgid "Balance Flow"
+msgstr "Fluxo de Saldo"
+
+#: .\templates\main\profile_dashboard.html:187
+msgid "We're here to help you!"
+msgstr "Estamos aqui para ajudar você!"
+
+#: .\templates\main\profile_dashboard.html:188
+msgid ""
+"Ask a question or file a support ticket, manage request, report and issues. "
+"Our support team will get"
+msgstr ""
+"Faça uma pergunta ou abra um ticket de suporte, gerencie solicitações, "
+"relatórios e problemas. Nossa equipe de suporte irá"
+
+#: .\templates\main\profile_dashboard.html:188
+msgid "back to you by email"
+msgstr "entrar em contato por e-mail"
+
+#: .\templates\main\profile_dashboard.html:191
+msgid "Get a Support Now"
+msgstr "Solicitar Suporte Agora"
+
+#: .\templates\main\register.html:9
+msgid "Create Your Account"
+msgstr "Crie sua Conta"
+
+#: .\templates\main\register.html:11
+msgid "Fill in the details below to create your new Floxix Bank account."
+msgstr "Preencha os dados abaixo para criar sua nova conta no Banco Floxix."
+
+#: .\templates\main\register.html:14 .\templates\main\register.html:15
+msgid "First Name"
+msgstr "Nome"
+
+#: .\templates\main\register.html:17 .\templates\main\register.html:18
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: .\templates\main\register.html:20 .\templates\main\register.html:21
+msgid "Email Address"
+msgstr "Endereço de E-mail"
+
+#: .\templates\main\register.html:26
+msgid "Date of Birth"
+msgstr "Data de Nascimento"
+
+#: .\templates\main\register.html:29
+msgid "Address"
+msgstr "Endereço"
+
+#: .\templates\main\register.html:30
+msgid "Street Address, City, State, ZIP"
+msgstr "Endereço, Cidade, Estado, CEP"
+
+#: .\templates\main\register.html:33
+msgid "Create Password"
+msgstr "Criar Senha"
+
+#: .\templates\main\register.html:35 .\templates\main\register.html:36
+msgid "Confirm Password"
+msgstr "Confirmar Senha"
+
+#: .\templates\main\register.html:38
+msgid "Register"
+msgstr "Registrar"
+
+#: .\templates\main\services.html:10
+msgid ""
+"At Floxix Internet Banking, we offer a wide range of financial services "
+"designed to meet your unique needs. From everyday banking transactions to "
+"personalized financial planning, we provide secure, easy-to-use tools that "
+"help you manage your money with confidence. Our goal is to make banking "
+"simpler, more efficient, and accessible, so you can focus on what matters "
+"most to you."
+msgstr ""
+"No Floxix Internet Banking, oferecemos uma ampla gama de serviços financeiros "
+"projetados para atender às suas necessidades. Desde transações bancárias do "
+"dia a dia até planejamento financeiro personalizado, fornecemos ferramentas "
+"seguras e fáceis de usar que ajudam você a gerenciar seu dinheiro com "
+"confiança. Nosso objetivo é tornar o banco mais simples, eficiente e "
+"acessível, para que você possa focar no que importa."
+
+#: .\templates\main\settings.html:7
+msgid "Customer Service Department"
+msgstr "Departamento de Atendimento ao Cliente"
+
+#: .\templates\main\settings.html:12
+msgid "Please select customer service department"
+msgstr "Por favor, selecione o departamento de atendimento ao cliente"
+
+#: .\templates\main\settings.html:13
+msgid "Account management"
+msgstr "Gerenciamento de Conta"
+
+#: .\templates\main\settings.html:14
+msgid "Transaction support"
+msgstr "Suporte a Transações"
+
+#: .\templates\main\settings.html:15
+msgid "Loan assistance"
+msgstr "Assistência para Empréstimos"
+
+#: .\templates\main\settings.html:16
+msgid "Credit card services"
+msgstr "Serviços de Cartão de Crédito"
+
+#: .\templates\main\settings.html:17
+msgid "Customer inquiries"
+msgstr "Consultas de Clientes"
+
+#: .\templates\main\settings.html:18
+msgid "Complaint resolution"
+msgstr "Resolução de Reclamações"
+
+#: .\templates\main\settings.html:20 .\templates\main\settings.html:30
+msgid "Type your complaints"
+msgstr "Digite suas reclamações"
+
+#: .\templates\main\settings.html:59
+msgid "Save my activity log"
+msgstr "Salvar meu registro de atividade"
+
+#: .\templates\main\settings.html:60
+msgid ""
+"You can save all your activity logs including unusual activity detected."
+msgstr ""
+"Você pode salvar todos os seus registros de atividade, incluindo atividades "
+"incomuns detectadas."
+
+#: .\templates\main\settings.html:63
+msgid "See recent activity"
+msgstr "Ver atividades recentes"
+
+#: .\templates\main\settings.html:70
+msgid "Security pin code"
+msgstr "Código PIN de Segurança"
+
+#: .\templates\main\settings.html:71
+msgid ""
+"You can set your pin code. We will ask you this code during the login "
+"attempts and transactions."
+msgstr ""
+"Você pode definir seu código PIN. Solicitaremos esse código durante as "
+"tentativas de login e nas transações."
+
+#: .\templates\main\settings.html:80
+msgid "2FA Authentication"
+msgstr "Autenticação 2FA"
+
+#: .\templates\main\settings.html:80
+msgid "Enabled"
+msgstr "Ativado"
+
+#: .\templates\main\settings.html:81
+msgid ""
+"Secure your account with 2FA security. When it is activated, you need to "
+"enter not only your password but also a special code using 2FA app. You can "
+"receive this code by mobile app."
+msgstr ""
+"Proteja sua conta com a segurança 2FA. Quando ativada, você precisará inserir "
+"não apenas sua senha, mas também um código especial gerado por um app 2FA. "
+"Você pode receber esse código pelo aplicativo móvel."
+
+#: .\templates\main\settings.html:89
+msgid "Browser"
+msgstr "Navegador"
+
+#: .\templates\main\settings.html:92
+msgid "IP"
+msgstr "IP"
+
+#: .\templates\main\settings.html:95
+msgid "Time"
+msgstr "Hora"
+
+#: .\templates\main\settings.html:101
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: .\templates\main\settings.html:106
+msgid "Mozilla Firefox"
+msgstr "Mozilla Firefox"
+
+#: .\templates\main\settings.html:111
+msgid "Safari"
+msgstr "Safari"
+
+#: .\templates\main\settings.html:116
+msgid "Microsoft Edge"
+msgstr "Microsoft Edge"
+
+#: .\templates\main\summary.html:61
+msgid "Ref"
+msgstr "Ref"
+
+#: .\templates\main\summary.html:65
+msgid "Type"
+msgstr "Tipo"
+
+#: .\templates\main\summary.html:69
+msgid "Scope"
+msgstr "Escopo"
+
+#: .\templates\main\summary.html:77
+msgid "Date"
+msgstr "Data"
+
+#: .\templates\main\summary.html:81
+msgid "Description"
+msgstr "Descrição"
+
+#: .\templates\main\summary.html:85
+msgid "Status"
+msgstr "Status"
+
+#: .\templates\main\summary.html:119
+msgid "Monthly Savings Deposit"
+msgstr "Depósito Mensal de Poupança"
+
+#: .\templates\main\summary.html:130
+msgid "Office Rent Payment"
+msgstr "Pagamento de Aluguel do Escritório"
+
+#: .\templates\main\summary.html:141
+msgid "Payment to Supplier"
+msgstr "Pagamento ao Fornecedor"
+
+#: .\templates\main\summary.html:152
+msgid "Child Health Care"
+msgstr "Cuidados de Saúde Infantil"
+
+#: .\templates\main\summary.html:162
+msgid "Prev"
+msgstr "Anterior"
+
+#: .\templates\main\summary.html:172 .\templates\main\summary.html:174
+msgid "Next"
+msgstr "Próximo"
+
+#: .\templates\main\transfer_details.html:20
+msgid "Transaction"
+msgstr "Transação"
+
+#: .\templates\main\transfer_details.html:24
+msgid "Your transaction was completed successfully."
+msgstr "Sua transação foi concluída com sucesso."
+
+#: .\templates\main\transfer_details.html:26
+msgid "Your transaction is pending. Please wait for confirmation."
+msgstr "Sua transação está pendente. Aguarde a confirmação."
+
+#: .\templates\main\transfer_details.html:28
+msgid "Transaction status unknown."
+msgstr "Status da transação desconhecido."
+
+#: .\templates\main\transfer_details.html:35
+msgid "Transaction Details"
+msgstr "Detalhes da Transação"
+
+#: .\templates\main\transfer_details.html:38
+msgid "Holder Name:"
+msgstr "Nome do Titular:"
+
+#: .\templates\main\transfer_details.html:42
+msgid "Amount:"
+msgstr "Valor:"
+
+#: .\templates\main\transfer_details.html:46
+msgid "Account Number:"
+msgstr "Número da Conta:"
+
+#: .\templates\main\transfer_details.html:50
+msgid "Bank Name:"
+msgstr "Nome do Banco:"
+
+#: .\templates\main\transfer_details.html:54
+msgid "Description:"
+msgstr "Descrição:"
+
+#: .\templates\main\transfer_details.html:58
+msgid "Date:"
+msgstr "Data:"
+
+#: .\templates\main\transfer_details.html:66
+msgid ""
+"If you did not authorize this transaction, please contact us immediately."
+msgstr ""
+"Se você não autorizou esta transação, entre em contato conosco imediatamente."
+
+#: .\templates\main\transfer_details.html:67
+msgid "Thanks,"
+msgstr "Obrigado,"
+
+#: .\templates\main\transfer_details.html:67
+msgid "Floxix Support Team"
+msgstr "Equipe de Suporte Floxix"

@@ -1,0 +1,1170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-07 23:57+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: .\main_app\models.py:39 .\templates\main\profile_dashboard.html:170
+#: .\templates\main\profile_dashboard.html:174
+#: .\templates\main\summary.html:113
+msgid "Debit"
+msgstr "出金"
+
+#: .\main_app\models.py:40 .\templates\main\profile_dashboard.html:169
+#: .\templates\main\profile_dashboard.html:173
+#: .\templates\main\summary.html:124 .\templates\main\summary.html:135
+#: .\templates\main\summary.html:146
+msgid "Credit"
+msgstr "入金"
+
+#: .\main_app\models.py:46
+msgid "Pending"
+msgstr "保留中"
+
+#: .\main_app\models.py:47 .\templates\main\summary.html:120
+#: .\templates\main\summary.html:131 .\templates\main\summary.html:142
+#: .\templates\main\summary.html:153
+msgid "Completed"
+msgstr "完了"
+
+#: .\main_app\models.py:54 .\templates\main\summary.html:136
+msgid "International Transfer"
+msgstr "国際送金"
+
+#: .\main_app\models.py:55 .\templates\main\cross_border.html:18
+#: .\templates\main\summary.html:114 .\templates\main\summary.html:125
+msgid "Local Transfer"
+msgstr "国内送金"
+
+#: .\main_app\models.py:56 .\templates\main\summary.html:147
+msgid "Check Deposite"
+msgstr "小切手入金"
+
+#: .\templates\base.html:114
+msgid "FLOXIX BANKING"
+msgstr "FLOXIX BANKING"
+
+#: .\templates\base.html:119
+msgid "About"
+msgstr "概要"
+
+#: .\templates\base.html:122 .\templates\main\index.html:264
+msgid "Services"
+msgstr "サービス"
+
+#: .\templates\base.html:125
+msgid "Team"
+msgstr "チーム"
+
+#: .\templates\base.html:128
+msgid "Contact"
+msgstr "お問い合わせ"
+
+#: .\templates\base.html:150
+msgid "Access acount"
+msgstr "アカウントにアクセス"
+
+#: .\templates\base.html:167
+msgid "About Financial"
+msgstr "Financialについて"
+
+#: .\templates\base.html:170
+msgid "uk"
+msgstr "イギリス"
+
+#: .\templates\base.html:182
+msgid "About Our Banking Services"
+msgstr "当行の銀行サービスについて"
+
+#: .\templates\base.html:184
+msgid ""
+"We offer comprehensive financial services to help you manage your wealth."
+msgstr ""
+"当行は資産管理を支援する包括的な金融サービスを提供しています。"
+
+#: .\templates\base.html:188
+msgid "Newsletter"
+msgstr "ニュースレター"
+
+#: .\templates\base.html:195
+msgid "Subscribe"
+msgstr "購読する"
+
+#: .\templates\base.html:233
+msgid "Copyright 2025 All Rights Reserved by"
+msgstr "Copyright 2025 全著作権所有"
+
+#: .\templates\base.html:234
+msgid "Your Trusted Bank"
+msgstr "信頼される銀行"
+
+#: .\templates\main\about.html:10
+msgid "WELCOME TO FINANCIAL SERVICES"
+msgstr "金融サービスへようこそ"
+
+#: .\templates\main\about.html:11
+msgid ""
+"At Floxix Internet Banking, we are committed to providing a seamless and "
+"secure online banking experience. Whether you're managing everyday "
+"transactions, planning for the future, or accessing advanced financial "
+"tools, our platform ensures you can easily and safely handle all your "
+"banking needs, anytime and anywhere. Experience the convenience of banking "
+"at your fingertips with Floxix."
+msgstr ""
+"Floxixインターネットバンキングでは、シームレスで安全なオンラインバンキング体験の提供に尽力しております。"
+"日常の取引を管理される場合でも、将来の計画を立てる場合でも、高度な金融ツールにアクセスする場合でも、"
+"当社のプラットフォームにより、いつでもどこでも安心してすべての銀行業務を容易に行っていただけます。"
+"Floxixで指先から利用する便利なバンキングをぜひご体験ください。"
+
+#: .\templates\main\check_deposite.html:9
+msgid "Floxix Online Banking Check Debosite"
+msgstr "Floxixインターネットバンキング 小切手入金"
+
+#: .\templates\main\check_deposite.html:11
+msgid "You can deposite checks by snapping the front and back of the check"
+msgstr "小切手の表面と裏面を撮影して入金することができます。"
+
+#: .\templates\main\check_deposite.html:14 .\templates\main\other_bank.html:105
+#: .\templates\main\pay_bill.html:14 .\templates\main\transaction_page.html:105
+msgid "Select Account"
+msgstr "口座を選択"
+
+#: .\templates\main\check_deposite.html:18 .\templates\main\loan.html:31
+#: .\templates\main\other_bank.html:112 .\templates\main\pay_bill.html:31
+#: .\templates\main\profile_dashboard.html:103
+#: .\templates\main\transaction_page.html:112
+msgid "Checking Account"
+msgstr "当座預金口座"
+
+#: .\templates\main\check_deposite.html:19 .\templates\main\loan.html:33
+#: .\templates\main\pay_bill.html:33 .\templates\main\profile_dashboard.html:84
+msgid "Available Balance"
+msgstr "利用可能残高"
+
+#: .\templates\main\check_deposite.html:25
+msgid "Check Ammount"
+msgstr "小切手金額"
+
+#: .\templates\main\check_deposite.html:34
+msgid "Front of the check"
+msgstr "小切手 表面"
+
+#: .\templates\main\check_deposite.html:43
+msgid "Back of the check"
+msgstr "小切手 裏面"
+
+#: .\templates\main\check_deposite.html:53
+msgid "Submit"
+msgstr "送信"
+
+#: .\templates\main\check_deposite.html:59
+#: .\templates\main\cross_border.html:74
+#: .\templates\main\crypto_deposite.html:83 .\templates\main\kyc.html:24
+#: .\templates\main\loan.html:125 .\templates\main\pay_bill.html:124
+#: .\templates\main\register.html:45 .\templates\main\settings.html:48
+msgid "Loading..."
+msgstr "読み込み中..."
+
+#: .\templates\main\check_deposite.html:61
+#: .\templates\main\cross_border.html:76
+#: .\templates\main\crypto_deposite.html:85 .\templates\main\kyc.html:26
+#: .\templates\main\loan.html:127 .\templates\main\pay_bill.html:126
+#: .\templates\main\register.html:47 .\templates\main\settings.html:50
+msgid "Processing your transfer..."
+msgstr "お振替を処理しています…"
+
+#: .\templates\main\check_deposite.html:67
+msgid ""
+"Note: our flash fund fee will be deducted from your account following the "
+"completion of this deposite"
+msgstr ""
+"注意：フラッシュ資金手数料は、本入金の完了後にお客様の口座から差し引かれます。"
+
+#: .\templates\main\check_deposite.html:70 .\templates\main\other_bank.html:295
+#: .\templates\main\profile_dashboard.html:197
+#: .\templates\main\transaction_page.html:295
+msgid "@ 2025 Floxix - All Rights Reserved"
+msgstr "@ 2025 Floxix - 全著作権所有"
+
+#: .\templates\main\contact.html:8 .\templates\main\index.html:19
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: .\templates\main\contact.html:9
+msgid ""
+"Get in touch with us to explore our banking solutions, receive expert "
+"financial advice, and find the services that best meet your needs."
+msgstr ""
+"銀行ソリューションのご案内、専門的な金融アドバイスのご提供、またはお客様のニーズに最適なサービスのご提案については、"
+"どうぞお気軽にお問い合わせください。"
+
+#: .\templates\main\contact.html:14
+msgid "Name"
+msgstr "お名前"
+
+#: .\templates\main\contact.html:15 .\templates\main\register.html:23
+#: .\templates\main\register.html:24
+msgid "Phone Number"
+msgstr "電話番号"
+
+#: .\templates\main\contact.html:16
+msgid "Email"
+msgstr "メールアドレス"
+
+#: .\templates\main\contact.html:17
+msgid "Message"
+msgstr "メッセージ"
+
+#: .\templates\main\contact.html:18
+msgid "send"
+msgstr "送信"
+
+#: .\templates\main\cross_border.html:8
+msgid "Cross-border transfer."
+msgstr "国際送金。"
+
+#: .\templates\main\cross_border.html:9
+msgid ""
+"Cross-border transfer is a fast and safe place to transfer money across "
+"different countries. The funds are deposited into the recipient bank "
+"account, associated with the IBAN or Swift code you have added."
+msgstr ""
+"国際送金は、異なる国間で迅速かつ安全に資金を送金するための方法です。"
+"資金は、お客様が追加したIBANまたはSWIFTコードに紐づく受取人の銀行口座に入金されます。"
+
+#: .\templates\main\cross_border.html:30
+msgid "Choose recipient"
+msgstr "受取人を選択"
+
+#: .\templates\main\cross_border.html:33
+msgid "Select a recipient been added"
+msgstr "追加済みの受取人を選択してください"
+
+#: .\templates\main\cross_border.html:34
+msgid "no recipient yet"
+msgstr "まだ受取人が登録されていません"
+
+#: .\templates\main\cross_border.html:39 .\templates\main\pay_bill.html:51
+msgid "Choose delivery date"
+msgstr "送金日を選択"
+
+#: .\templates\main\cross_border.html:46 .\templates\main\other_bank.html:168
+#: .\templates\main\pay_bill.html:58 .\templates\main\transaction_page.html:168
+msgid "Amount to Transfer"
+msgstr "送金金額"
+
+#: .\templates\main\cross_border.html:48 .\templates\main\other_bank.html:178
+#: .\templates\main\transaction_page.html:178
+msgid "Daily Transfer Limit"
+msgstr "1日の送金上限"
+
+#: .\templates\main\cross_border.html:58
+#: .\templates\main\crypto_deposite.html:75 .\templates\main\loan.html:88
+#: .\templates\main\other_bank.html:208
+#: .\templates\main\transaction_page.html:208
+msgid "Minimum"
+msgstr "最小"
+
+#: .\templates\main\cross_border.html:64 .\templates\main\other_bank.html:247
+#: .\templates\main\transaction_page.html:247
+msgid "Description (optional)"
+msgstr "説明（任意）"
+
+#: .\templates\main\cross_border.html:68
+#: .\templates\main\crypto_deposite.html:77 .\templates\main\loan.html:118
+#: .\templates\main\pay_bill.html:117 .\templates\main\settings.html:42
+#: .\templates\main\transfer_details.html:70
+msgid "Continue"
+msgstr "続行"
+
+#: .\templates\main\crypto_deposite.html:8
+msgid "Manage Digital Assets"
+msgstr "デジタル資産の管理"
+
+#: .\templates\main\crypto_deposite.html:10
+msgid ""
+"Floxix Crypto assets management tool enables users to tie in multiple crypto "
+"accounts and wallets so that they can easily keep an eye on all of their "
+"cryptocurrency holdings using a single dashboard."
+msgstr ""
+"Floxixの暗号資産管理ツールにより、複数の暗号アカウントとウォレットを連携させ、"
+"単一のダッシュボードで保有する暗号資産を簡単に一元管理できます。"
+
+#: .\templates\main\crypto_deposite.html:25
+msgid "crypto Currencies"
+msgstr "暗号通貨"
+
+#: .\templates\main\crypto_deposite.html:33
+msgid "which Crypto Asset will you"
+msgstr "どの暗号資産を"
+
+#: .\templates\main\crypto_deposite.html:33
+msgid "like to Deposite?"
+msgstr "預け入れますか？"
+
+#: .\templates\main\crypto_deposite.html:35
+msgid "Choose Your Preffered Asset"
+msgstr "希望する資産を選択してください"
+
+#: .\templates\main\crypto_deposite.html:40
+msgid "Choose Crypto Asset"
+msgstr "暗号資産を選択"
+
+#: .\templates\main\crypto_deposite.html:46
+msgid "Amount to Deposit"
+msgstr "預入金額"
+
+#: .\templates\main\index.html:6
+msgid "financial"
+msgstr "金融"
+
+#: .\templates\main\index.html:7
+msgid "Service"
+msgstr "サービス"
+
+#: .\templates\main\index.html:11
+msgid ""
+"We do not just help you reach your financial milestones, we work alongside "
+"you to build lasting relationships that are based on trust, understanding, "
+"and personalized guidance. Our goal is to be a long-term partner in your "
+"financial journey"
+msgstr ""
+"当行は単にお客様の金融目標達成を支援するだけでなく、信頼と理解、"
+"そして個別のガイダンスに基づく長期的な関係を築くことを目指して共に歩んでいます。"
+"私たちの目標は、お客様の金融の旅における長期的なパートナーとなることです。"
+
+#: .\templates\main\index.html:16 .\templates\main\index.html:40
+#: .\templates\main\index.html:82 .\templates\main\index.html:96
+#: .\templates\main\index.html:110 .\templates\main\index.html:124
+#: .\templates\main\index.html:145 .\templates\main\services.html:20
+#: .\templates\main\services.html:31 .\templates\main\services.html:41
+#: .\templates\main\services.html:51
+msgid "Read More"
+msgstr "続きを読む"
+
+#: .\templates\main\index.html:33
+msgid "WELCOME TO FLOXIX BANKING"
+msgstr "FLOXIX BANKINGへようこそ"
+
+#: .\templates\main\index.html:36
+msgid ""
+"At Floxix Banking, we are committed to providing a seamless and secure "
+"online banking experience. Whether you're managing everyday transactions, "
+"planning for the future, or accessing advanced financial tools, our platform "
+"ensures you can easily and safely handle all your banking needs, anytime and "
+"anywhere. Experience the convenience of banking at your fingertips with "
+"Floxix."
+msgstr ""
+"Floxix Bankingでは、シームレスで安全なオンラインバンキング体験を提供することに尽力しています。"
+"日常の取引管理、将来の計画、または高度な金融ツールへのアクセスにおいても、"
+"当社のプラットフォームにより、いつでもどこでも安心して銀行業務を行っていただけます。"
+"Floxixで指先からの便利なバンキング体験をお試しください。"
+
+#: .\templates\main\index.html:61 .\templates\main\services.html:8
+msgid "WHAT WE DO"
+msgstr "私たちの業務内容"
+
+#: .\templates\main\index.html:63
+msgid ""
+" At Floxix Internet Banking, we offer a wide range of\n"
+"      financial services designed to meet your unique needs. From everyday\n"
+"      banking transactions to personalized financial planning, we provide\n"
+"      secure, easy-to-use tools that help you manage your money with "
+"confidence.\n"
+"      Our goal is to make banking simpler, more efficient, and accessible, "
+"so\n"
+"      you can focus on what matters most to you. "
+msgstr ""
+"Floxixインターネットバンキングでは、お客様のさまざまなニーズに対応する幅広い金融サービスを提供しています。"
+"日常の銀行取引から個別の財務計画まで、安心してお使いいただける使いやすいツールをご用意しております。"
+"私たちの目標は、銀行業務をより簡素で効率的、かつ利用しやすくすることで、お客様がより重要なことに集中できるようサポートすることです。"
+
+#: .\templates\main\index.html:77 .\templates\main\services.html:17
+msgid "Account Management"
+msgstr "口座管理"
+
+#: .\templates\main\index.html:79 .\templates\main\services.html:18
+msgid "Secure and efficient account management solutions."
+msgstr "安全で効率的な口座管理ソリューション"
+
+#: .\templates\main\index.html:91 .\templates\main\services.html:28
+msgid "Financial Advisory"
+msgstr "金融アドバイザリー"
+
+#: .\templates\main\index.html:93 .\templates\main\services.html:29
+msgid "Expert advice to help you manage your finances."
+msgstr "財務管理を支援する専門的なアドバイス"
+
+#: .\templates\main\index.html:105 .\templates\main\services.html:38
+msgid "Investments"
+msgstr "投資"
+
+#: .\templates\main\index.html:107 .\templates\main\services.html:39
+msgid "Grow your wealth with our investment solutions."
+msgstr "当社の投資ソリューションで資産を増やしましょう。"
+
+#: .\templates\main\index.html:119 .\templates\main\services.html:48
+msgid "Financial Planning"
+msgstr "財務計画"
+
+#: .\templates\main\index.html:121 .\templates\main\services.html:49
+msgid "Plan for your future with our expert guidance."
+msgstr "専門家のガイダンスで将来を計画してください。"
+
+#: .\templates\main\index.html:140
+msgid "Our Banking Services"
+msgstr "当行の銀行サービス"
+
+#: .\templates\main\index.html:142
+msgid ""
+"We provide secure and reliable financial solutions to help you achieve your "
+"banking goals. Explore our wide range of services tailored to meet your "
+"needs."
+msgstr ""
+"当行は、安全で信頼性の高い金融ソリューションを提供し、お客様の銀行目標達成を支援します。"
+"お客様のニーズに合わせた幅広いサービスをぜひご確認ください。"
+
+#: .\templates\main\index.html:169 .\templates\main\index.html:186
+#: .\templates\main\index.html:205 .\templates\main\index.html:222
+msgid "Established Fact"
+msgstr "設立に関する事実"
+
+#: .\templates\main\index.html:240
+msgid "Years of Business"
+msgstr "事業年数"
+
+#: .\templates\main\index.html:248
+msgid "Projects Delivered"
+msgstr "完了したプロジェクト"
+
+#: .\templates\main\index.html:256
+msgid "Satisfied Customers"
+msgstr "満足されたお客様"
+
+#: .\templates\main\index.html:273 .\templates\main\team.html:9
+msgid "Our Banking Team and Experts"
+msgstr "当行のチームと専門家"
+
+#: .\templates\main\index.html:275 .\templates\main\team.html:11
+msgid ""
+"Our experienced banking professionals are dedicated to providing expert "
+"financial advice and solutions, ensuring your success in managing wealth and "
+"investments."
+msgstr ""
+"当行の経験豊富な専門家は、資産および投資の管理に関する成功を支援するため、"
+"専門的な金融アドバイスとソリューションの提供に専念しております。"
+
+#: .\templates\main\index.html:282 .\templates\main\team.html:18
+msgid "Branch Manager"
+msgstr "支店長"
+
+#: .\templates\main\index.html:303 .\templates\main\team.html:39
+msgid "Financial Advisor"
+msgstr "ファイナンシャルアドバイザー"
+
+#: .\templates\main\index.html:324 .\templates\main\team.html:60
+msgid "Loan Officer"
+msgstr "ローン担当者"
+
+#: .\templates\main\index.html:345 .\templates\main\team.html:81
+msgid "Customer Service"
+msgstr "カスタマーサービス"
+
+#: .\templates\main\index.html:388 .\templates\main\index.html:421
+#: .\templates\main\index.html:454
+msgid "What Our Clients Say"
+msgstr "お客様の声"
+
+#: .\templates\main\index.html:416
+msgid ""
+"\"The banking services provided have been exceptional. They have helped us "
+"streamline our financial processes and plan for the future with confidence.\""
+msgstr ""
+"「提供された銀行サービスは非常に優れており、当社の財務プロセスの効率化と、"
+"将来計画の自信につながりました。」"
+
+#: .\templates\main\index.html:449
+msgid ""
+"\"Their financial advisory services have been a game changer for our "
+"business, We are now more informed and empowered to make strategic decisions."
+"\""
+msgstr ""
+"「彼らの金融アドバイザリーサービスは当社の事業にとって転換点となりました。"
+"私たちは現在、より多くの情報に基づいて戦略的な意思決定を行えるようになりました。」"
+
+#: .\templates\main\index.html:480
+msgid ""
+"\"The investment options offered have significantly grown our portfolio, and "
+"we feel confident in our financial future.\""
+msgstr ""
+"「提供された投資オプションにより、当社のポートフォリオは大幅に成長し、"
+"将来に対する信頼を得ることができました。」"
+
+#: .\templates\main\kyc.html:8
+msgid "KYC Verification"
+msgstr "KYC認証"
+
+#: .\templates\main\kyc.html:9
+msgid ""
+"To comply with regulation each participant will have to go through identity "
+"verification (KYC/AML) to prevent fraud cases"
+msgstr ""
+"規制を遵守するため、各参加者は不正を防止するために本人確認（KYC/AML）を受ける必要があります。"
+
+#: .\templates\main\kyc.html:15
+msgid ""
+"You have not submitted your necessary documents to verify your identity. In "
+"order to continue using Floxix online banking products, please verify your "
+"identity"
+msgstr ""
+"本人確認に必要な書類が提出されていません。Floxixのオンラインバンキング製品を引き続きご利用いただくには、"
+"本人確認を完了してください。"
+
+#: .\templates\main\kyc.html:17
+msgid "Click here to complete your KYC"
+msgstr "KYCを完了するにはこちらをクリックしてください"
+
+#: .\templates\main\loan.html:5
+msgid "Apply For Floxix Loan"
+msgstr "Floxixローンに申し込む"
+
+#: .\templates\main\loan.html:14
+msgid "Account In Account"
+msgstr "口座内口座"
+
+#: .\templates\main\loan.html:41
+msgid "Credit Facility"
+msgstr "与信枠"
+
+#: .\templates\main\loan.html:46
+msgid "Select Loan/Credit Facility"
+msgstr "ローン/与信枠を選択してください"
+
+#: .\templates\main\loan.html:47
+msgid "no current loans"
+msgstr "現在ローンはありません"
+
+#: .\templates\main\loan.html:51
+msgid "Repayment date"
+msgstr "返済日"
+
+#: .\templates\main\loan.html:58
+msgid "Loan Amount"
+msgstr "ローン金額"
+
+#: .\templates\main\loan.html:89
+msgid "Maximum"
+msgstr "最大"
+
+#: .\templates\main\loan.html:107
+msgid "Why do you want to take a loan?"
+msgstr "なぜローンを申し込むのですか？"
+
+#: .\templates\main\login.html:9
+msgid "Sign-in"
+msgstr "サインイン"
+
+#: .\templates\main\login.html:11
+msgid "Access the Floxix banking panel using your Account number and password."
+msgstr "口座番号とパスワードを使用してFloxixのバンキングパネルにアクセスしてください。"
+
+#: .\templates\main\login.html:14 .\templates\main\other_bank.html:122
+#: .\templates\main\transaction_page.html:122
+msgid "Account Number"
+msgstr "口座番号"
+
+#: .\templates\main\login.html:15
+msgid "Enter your account number"
+msgstr "口座番号を入力してください"
+
+#: .\templates\main\login.html:17 .\templates\main\register.html:32
+msgid "Password"
+msgstr "パスワード"
+
+#: .\templates\main\login.html:18
+msgid "Enter your password"
+msgstr "パスワードを入力してください"
+
+#: .\templates\main\login.html:20
+msgid "Log in"
+msgstr "ログイン"
+
+#: .\templates\main\login.html:22
+msgid "Forgotten password?"
+msgstr "パスワードをお忘れですか？"
+
+#: .\templates\main\login.html:27
+msgid "Create new account"
+msgstr "新しいアカウントを作成する"
+
+#: .\templates\main\other_bank.html:102
+#: .\templates\main\transaction_page.html:102
+msgid "Transfer To a Floxix Account"
+msgstr "Floxix口座への送金"
+
+#: .\templates\main\other_bank.html:136
+#: .\templates\main\transaction_page.html:136
+msgid "Recipient account number"
+msgstr "受取人の口座番号"
+
+#: .\templates\main\other_bank.html:144
+#: .\templates\main\transaction_page.html:144
+msgid "Holder Name"
+msgstr "口座名義"
+
+#: .\templates\main\other_bank.html:158
+#: .\templates\main\transaction_page.html:158
+msgid "Account holder name"
+msgstr "口座名義人"
+
+#: .\templates\main\other_bank.html:226
+#: .\templates\main\transaction_page.html:226
+msgid "Bank name"
+msgstr "銀行名"
+
+#: .\templates\main\other_bank.html:257
+#: .\templates\main\transaction_page.html:257
+msgid "Transaction PIN"
+msgstr "取引PIN"
+
+#: .\templates\main\other_bank.html:266
+#: .\templates\main\transaction_page.html:266
+msgid "Enter 4-digit PIN"
+msgstr "4桁のPINを入力してください"
+
+#: .\templates\main\other_bank.html:273
+#: .\templates\main\transaction_page.html:273
+msgid "Your PIN is required to complete the transfer."
+msgstr "送金を完了するにはPINが必要です。"
+
+#: .\templates\main\other_bank.html:284
+#: .\templates\main\transaction_page.html:284
+msgid "Continue to Next Step"
+msgstr "次のステップへ進む"
+
+#: .\templates\main\pay_bill.html:5
+msgid "Floxix Online Banking Bills Payment"
+msgstr "Floxixインターネットバンキング 請求書支払い"
+
+#: .\templates\main\pay_bill.html:41 .\templates\main\pay_bill.html:46
+msgid "Select a bill to pay"
+msgstr "支払う請求書を選択してください"
+
+#: .\templates\main\pay_bill.html:47
+msgid "no bills yet"
+msgstr "まだ請求書はありません"
+
+#: .\templates\main\pay_bill.html:89
+msgid "Bill pay fee will be deducted"
+msgstr "請求書支払い手数料が差し引かれます"
+
+#: .\templates\main\pay_bill.html:106
+msgid "Memo (optional)"
+msgstr "メモ（任意）"
+
+#: .\templates\main\profile.html:36
+msgid "Do you know about our latest update?"
+msgstr "最新のアップデートについてご存知ですか？"
+
+#: .\templates\main\profile.html:38
+msgid "An overview of ours is now available..."
+msgstr "概要がご利用いただけるようになりました..."
+
+#: .\templates\main\profile.html:49
+msgid "Connected"
+msgstr "接続済み"
+
+#: .\templates\main\profile.html:74
+msgid "Logout"
+msgstr "ログアウト"
+
+#: .\templates\main\profile.html:90
+msgid "AVAILABLE BALANCE"
+msgstr "利用可能残高"
+
+#: .\templates\main\profile.html:112
+msgid "Income"
+msgstr "収入"
+
+#: .\templates\main\profile.html:113
+msgid "Debits"
+msgstr "出金"
+
+#: .\templates\main\profile.html:132
+msgid "TRANSFER"
+msgstr "送金"
+
+#: .\templates\main\profile.html:135
+msgid "PAY BILLS"
+msgstr "請求書支払い"
+
+#: .\templates\main\profile.html:141
+msgid "MENU"
+msgstr "メニュー"
+
+#: .\templates\main\profile.html:145
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: .\templates\main\profile.html:150
+msgid "My Account"
+msgstr "マイアカウント"
+
+#: .\templates\main\profile.html:155
+msgid "Account Summary"
+msgstr "口座概要"
+
+#: .\templates\main\profile.html:170
+msgid "Send Money"
+msgstr "送金"
+
+#: .\templates\main\profile.html:183
+msgid "Floxix Transfer"
+msgstr "Floxix送金"
+
+#: .\templates\main\profile.html:196
+msgid "Other bank transfer"
+msgstr "他行送金"
+
+#: .\templates\main\profile.html:209
+msgid "Cross-border transfer"
+msgstr "国際送金"
+
+#: .\templates\main\profile.html:216
+msgid "Cross-border Transfer"
+msgstr "国際送金"
+
+#: .\templates\main\profile.html:221
+msgid "Deposit Check"
+msgstr "小切手入金"
+
+#: .\templates\main\profile.html:226
+msgid "Pay Bills"
+msgstr "請求書支払い"
+
+#: .\templates\main\profile.html:231
+msgid "Virtual Cards"
+msgstr "バーチャルカード"
+
+#: .\templates\main\profile.html:246
+msgid "Crypto Currency"
+msgstr "暗号通貨"
+
+#: .\templates\main\profile.html:259
+msgid "Manage Assets"
+msgstr "資産管理"
+
+#: .\templates\main\profile.html:272
+msgid "Deposite Crypto"
+msgstr "暗号資産の入金"
+
+#: .\templates\main\profile.html:285
+msgid "Flate Withdraw"
+msgstr "クイック出金"
+
+#: .\templates\main\profile.html:292
+msgid "KYC Status"
+msgstr "KYCステータス"
+
+#: .\templates\main\profile.html:297
+msgid "Loan/Credit financing"
+msgstr "ローン/クレジットファイナンス"
+
+#: .\templates\main\profile.html:302
+msgid "Support"
+msgstr "サポート"
+
+#: .\templates\main\profile.html:307
+msgid "Account Settings"
+msgstr "アカウント設定"
+
+#: .\templates\main\profile_dashboard.html:8
+msgid "Chat"
+msgstr "チャット"
+
+#: .\templates\main\profile_dashboard.html:21
+msgid "Chat with Us"
+msgstr "チャットでお問い合わせ"
+
+#: .\templates\main\profile_dashboard.html:39
+msgid "Type a message..."
+msgstr "メッセージを入力してください..."
+
+#: .\templates\main\profile_dashboard.html:42
+msgid "Send"
+msgstr "送信"
+
+#: .\templates\main\profile_dashboard.html:51
+msgid "Good Day"
+msgstr "こんにちは"
+
+#: .\templates\main\profile_dashboard.html:52
+msgid "At a glance summary of your account!"
+msgstr "口座の概要を一目でご確認ください！"
+
+#: .\templates\main\profile_dashboard.html:57
+msgid "Deposit"
+msgstr "入金"
+
+#: .\templates\main\profile_dashboard.html:67
+#: .\templates\main\profile_dashboard.html:104
+msgid "Transfer Fund"
+msgstr "送金"
+
+#: .\templates\main\profile_dashboard.html:75
+msgid "Overview"
+msgstr "概要"
+
+#: .\templates\main\profile_dashboard.html:80
+msgid "Last Login"
+msgstr "最終ログイン"
+
+#: .\templates\main\profile_dashboard.html:93
+msgid "Your IP Address"
+msgstr "お客様のIPアドレス"
+
+#: .\templates\main\profile_dashboard.html:96
+msgid "Loading... "
+msgstr "読み込み中..."
+
+#: .\templates\main\profile_dashboard.html:111
+msgid "Loans and lines of credit"
+msgstr "ローンおよび信用枠"
+
+#: .\templates\main\profile_dashboard.html:112
+msgid "Pay bills"
+msgstr "請求書を支払う"
+
+#: .\templates\main\profile_dashboard.html:116
+msgid "Business Support Loan"
+msgstr "事業支援ローン"
+
+#: .\templates\main\profile_dashboard.html:120
+msgid "FICO Credit Score"
+msgstr "FICOクレジットスコア"
+
+#: .\templates\main\profile_dashboard.html:130
+msgid "Recent Transaction Activities"
+msgstr "最近の取引履歴"
+
+#: .\templates\main\profile_dashboard.html:131
+msgid "All"
+msgstr "すべて"
+
+#: .\templates\main\profile_dashboard.html:142 .\templates\main\summary.html:73
+msgid "Amount"
+msgstr "金額"
+
+#: .\templates\main\profile_dashboard.html:154
+msgid "View Details"
+msgstr "詳細を見る"
+
+#: .\templates\main\profile_dashboard.html:159
+msgid "No history yet"
+msgstr "まだ履歴がありません"
+
+#: .\templates\main\profile_dashboard.html:166
+msgid "Balance Flow"
+msgstr "残高の推移"
+
+#: .\templates\main\profile_dashboard.html:187
+msgid "We're here to help you!"
+msgstr "私たちはお手伝いいたします！"
+
+#: .\templates\main\profile_dashboard.html:188
+msgid ""
+"Ask a question or file a support ticket, manage request, report and issues. "
+"Our support team will get"
+msgstr ""
+"ご質問がある場合やサポートチケットを提出する場合、リクエストや報告、問題の管理を行ってください。"
+"当社のサポートチームが"
+
+#: .\templates\main\profile_dashboard.html:188
+msgid "back to you by email"
+msgstr "メールでご連絡いたします"
+
+#: .\templates\main\profile_dashboard.html:191
+msgid "Get a Support Now"
+msgstr "今すぐサポートを受ける"
+
+#: .\templates\main\register.html:9
+msgid "Create Your Account"
+msgstr "アカウントを作成する"
+
+#: .\templates\main\register.html:11
+msgid "Fill in the details below to create your new Floxix Bank account."
+msgstr "以下の情報を入力して、新しいFloxix口座を作成してください。"
+
+#: .\templates\main\register.html:14 .\templates\main\register.html:15
+msgid "First Name"
+msgstr "名"
+
+#: .\templates\main\register.html:17 .\templates\main\register.html:18
+msgid "Last Name"
+msgstr "姓"
+
+#: .\templates\main\register.html:20 .\templates\main\register.html:21
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: .\templates\main\register.html:26
+msgid "Date of Birth"
+msgstr "生年月日"
+
+#: .\templates\main\register.html:29
+msgid "Address"
+msgstr "住所"
+
+#: .\templates\main\register.html:30
+msgid "Street Address, City, State, ZIP"
+msgstr "住所（番地、市区町村、都道府県、郵便番号）"
+
+#: .\templates\main\register.html:33
+msgid "Create Password"
+msgstr "パスワードを作成する"
+
+#: .\templates\main\register.html:35 .\templates\main\register.html:36
+msgid "Confirm Password"
+msgstr "パスワードを確認する"
+
+#: .\templates\main\register.html:38
+msgid "Register"
+msgstr "登録"
+
+#: .\templates\main\services.html:10
+msgid ""
+"At Floxix Internet Banking, we offer a wide range of financial services "
+"designed to meet your unique needs. From everyday banking transactions to "
+"personalized financial planning, we provide secure, easy-to-use tools that "
+"help you manage your money with confidence. Our goal is to make banking "
+"simpler, more efficient, and accessible, so you can focus on what matters "
+"most to you."
+msgstr ""
+"Floxixインターネットバンキングでは、お客様のニーズに合わせた幅広い金融サービスを提供しております。"
+"日常の銀行取引から個別の財務計画まで、安全で使いやすいツールにより自信を持って資金管理を行えるようサポートします。"
+"私たちの目標は、銀行業務をより簡潔で効率的、かつ利用しやすくすることで、お客様が重要な事柄に集中できるようにすることです。"
+
+#: .\templates\main\settings.html:7
+msgid "Customer Service Department"
+msgstr "カスタマーサービス部門"
+
+#: .\templates\main\settings.html:12
+msgid "Please select customer service department"
+msgstr "対応するカスタマーサービス部門を選択してください"
+
+#: .\templates\main\settings.html:13
+msgid "Account management"
+msgstr "口座管理"
+
+#: .\templates\main\settings.html:14
+msgid "Transaction support"
+msgstr "取引サポート"
+
+#: .\templates\main\settings.html:15
+msgid "Loan assistance"
+msgstr "ローン支援"
+
+#: .\templates\main\settings.html:16
+msgid "Credit card services"
+msgstr "クレジットカードサービス"
+
+#: .\templates\main\settings.html:17
+msgid "Customer inquiries"
+msgstr "お客様からのお問い合わせ"
+
+#: .\templates\main\settings.html:18
+msgid "Complaint resolution"
+msgstr "苦情の解決"
+
+#: .\templates\main\settings.html:20 .\templates\main\settings.html:30
+msgid "Type your complaints"
+msgstr "ご不満をご入力ください"
+
+#: .\templates\main\settings.html:59
+msgid "Save my activity log"
+msgstr "活動ログを保存する"
+
+#: .\templates\main\settings.html:60
+msgid ""
+"You can save all your activity logs including unusual activity detected."
+msgstr ""
+"検出された異常な活動を含む、すべての活動ログを保存できます。"
+
+#: .\templates\main\settings.html:63
+msgid "See recent activity"
+msgstr "最近の活動を見る"
+
+#: .\templates\main\settings.html:70
+msgid "Security pin code"
+msgstr "セキュリティPINコード"
+
+#: .\templates\main\settings.html:71
+msgid ""
+"You can set your pin code. We will ask you this code during the login "
+"attempts and transactions."
+msgstr ""
+"PINコードを設定できます。ログイン時や取引時にこのコードを要求します。"
+
+#: .\templates\main\settings.html:80
+msgid "2FA Authentication"
+msgstr "2段階認証（2FA）"
+
+#: .\templates\main\settings.html:80
+msgid "Enabled"
+msgstr "有効"
+
+#: .\templates\main\settings.html:81
+msgid ""
+"Secure your account with 2FA security. When it is activated, you need to "
+"enter not only your password but also a special code using 2FA app. You can "
+"receive this code by mobile app."
+msgstr ""
+"2段階認証（2FA）でアカウントを保護してください。有効化すると、パスワードに加えて"
+"2FAアプリで生成されるコードの入力が必要になります。モバイルアプリでこのコードを受け取れます。"
+
+#: .\templates\main\settings.html:89
+msgid "Browser"
+msgstr "ブラウザ"
+
+#: .\templates\main\settings.html:92
+msgid "IP"
+msgstr "IP"
+
+#: .\templates\main\settings.html:95
+msgid "Time"
+msgstr "時間"
+
+#: .\templates\main\settings.html:101
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: .\templates\main\settings.html:106
+msgid "Mozilla Firefox"
+msgstr "Mozilla Firefox"
+
+#: .\templates\main\settings.html:111
+msgid "Safari"
+msgstr "Safari"
+
+#: .\templates\main\settings.html:116
+msgid "Microsoft Edge"
+msgstr "Microsoft Edge"
+
+#: .\templates\main\summary.html:61
+msgid "Ref"
+msgstr "参照"
+
+#: .\templates\main\summary.html:65
+msgid "Type"
+msgstr "タイプ"
+
+#: .\templates\main\summary.html:69
+msgid "Scope"
+msgstr "範囲"
+
+#: .\templates\main\summary.html:77
+msgid "Date"
+msgstr "日付"
+
+#: .\templates\main\summary.html:81
+msgid "Description"
+msgstr "説明"
+
+#: .\templates\main\summary.html:85
+msgid "Status"
+msgstr "ステータス"
+
+#: .\templates\main\summary.html:119
+msgid "Monthly Savings Deposit"
+msgstr "毎月の貯蓄預金"
+
+#: .\templates\main\summary.html:130
+msgid "Office Rent Payment"
+msgstr "事務所家賃の支払い"
+
+#: .\templates\main\summary.html:141
+msgid "Payment to Supplier"
+msgstr "仕入先への支払い"
+
+#: .\templates\main\summary.html:152
+msgid "Child Health Care"
+msgstr "子どもの健康管理"
+
+#: .\templates\main\summary.html:162
+msgid "Prev"
+msgstr "前へ"
+
+#: .\templates\main\summary.html:172 .\templates\main\summary.html:174
+msgid "Next"
+msgstr "次へ"
+
+#: .\templates\main\transfer_details.html:20
+msgid "Transaction"
+msgstr "取引"
+
+#: .\templates\main\transfer_details.html:24
+msgid "Your transaction was completed successfully."
+msgstr "お取引は正常に完了しました。"
+
+#: .\templates\main\transfer_details.html:26
+msgid "Your transaction is pending. Please wait for confirmation."
+msgstr "お取引は保留中です。確認までお待ちください。"
+
+#: .\templates\main\transfer_details.html:28
+msgid "Transaction status unknown."
+msgstr "取引ステータスが不明です。"
+
+#: .\templates\main\transfer_details.html:35
+msgid "Transaction Details"
+msgstr "取引の詳細"
+
+#: .\templates\main\transfer_details.html:38
+msgid "Holder Name:"
+msgstr "名義人:"
+
+#: .\templates\main\transfer_details.html:42
+msgid "Amount:"
+msgstr "金額:"
+
+#: .\templates\main\transfer_details.html:46
+msgid "Account Number:"
+msgstr "口座番号:"
+
+#: .\templates\main\transfer_details.html:50
+msgid "Bank Name:"
+msgstr "銀行名:"
+
+#: .\templates\main\transfer_details.html:54
+msgid "Description:"
+msgstr "説明:"
+
+#: .\templates\main\transfer_details.html:58
+msgid "Date:"
+msgstr "日付:"
+
+#: .\templates\main\transfer_details.html:66
+msgid ""
+"If you did not authorize this transaction, please contact us immediately."
+msgstr ""
+"この取引を許可していない場合は、直ちに当行までご連絡ください。"
+
+#: .\templates\main\transfer_details.html:67
+msgid "Thanks,"
+msgstr "よろしくお願いいたします。"
+
+#: .\templates\main\transfer_details.html:67
+msgid "Floxix Support Team"
+msgstr "Floxixサポートチーム"

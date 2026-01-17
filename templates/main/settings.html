@@ -1,0 +1,123 @@
+{% extends 'main/profile.html' %} 
+{% load static %} 
+{% load i18n %}
+{% block section %}
+<div style="height: 80vh; margin: 10px 20px">
+    <form action="" style="width: 100%; margin-top: 30px; display: none;">
+      <label>{% trans "Customer Service Department" %}</label>
+      <select
+        class="form-border"
+        style="background-color: rgb(2, 32, 62); color: white; width: 100%"
+      >
+        <option>{% trans "Please select customer service department" %}</option>
+        <option>{% trans "Account management" %}</option>
+        <option>{% trans "Transaction support" %}</option>
+        <option>{% trans "Loan assistance" %}</option>
+        <option>{% trans "Credit card services" %}</option>
+        <option>{% trans "Customer inquiries" %}</option>
+        <option>{% trans "Complaint resolution" %}</option>
+      </select>
+      <label style="font-size: 16px; font-weight: bold">{% trans "Type your complaints" %}</label>
+      <div class="form-border" style="width: 100%">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            width: 100%;
+          "
+        >
+          <textarea class="amount-input" style="width: 100%; background-color: rgb(2, 32, 62); border: none; outline: none; color: white;" name="" id="" placeholder="{% trans 'Type your complaints' %}"></textarea>
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          margin-top: -15px;
+          font-size: 12px;
+        "
+      >
+      </div>
+      <button type="submit" style="margin-bottom: 100px; width: 100%; margin-top: 20px;" id="blueButton" class="btn btn-primary transfer-button">{% trans "Continue" %}</button>
+      <div class="modal fade" id="Processing" tabindex="-1" role="dialog" aria-labelledby="loadingModalTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                  <div class="modal-body text-center">
+                      <div class="spinner-border text-primary" role="status">
+                          <span class="sr-only">{% trans "Loading..." %}</span>
+                      </div>
+                      <p>{% trans "Processing your transfer..." %}</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </form>
+  <div>
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; border-bottom: 1px solid gray; padding: 20px;">
+        <div>
+            <div><strong>{% trans "Save my activity log" %}</strong></div>
+            <p style="font-size: 14px; color: gainsboro;">{% trans "You can save all your activity logs including unusual activity detected." %}</p>
+        </div>
+        <div>
+            <span style="font-size: 14px; color: rgb(84, 127, 227); margin-right: 10px;">{% trans "See recent activity" %}</span>
+            <span><i class="fa-solid fa-toggle-off fa-2xl"></i></span>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; border-bottom: 1px solid gray; padding: 20px;">
+        <div>
+            <div><strong>{% trans "Security pin code" %}</strong></div>
+            <p style="font-size: 14px; color: gainsboro;">{% trans "You can set your pin code. We will ask you this code during the login attempts and transactions." %}</p>
+        </div>
+        <div>
+            <span><i class="fa-solid fa-toggle-on fa-2xl" style="color: #63E6BE;"></i></span>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; border-bottom: 1px solid gray; padding: 20px;">
+        <div>
+            <div><strong>{% trans "2FA Authentication" %}</strong> <span style="background-color: #63E6BE; color: white; padding: 2px; border-radius: 5px;">{% trans "Enabled" %}</span></div>
+            <p style="font-size: 14px; color: gainsboro;">{% trans "Secure your account with 2FA security. When it is activated, you need to enter not only your password but also a special code using 2FA app. You can receive this code by mobile app." %}</p>
+        </div>
+    </div>
+</div>
+  <table class="transaction-table">
+    <thead>
+        <tr>
+            <th class="table-header">
+                <span>{% trans "Browser" %}</span>
+            </th>
+            <th class="table-header">
+                <span>{% trans "IP" %}</span>
+            </th>
+            <th class="table-header">
+                <span>{% trans "Time" %}</span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{% trans "Google Chrome" %}</td>
+            <td>192.168.1.101</td>
+            <td>2025-01-28 14:35:22</td>
+        </tr>
+        <tr>
+            <td>{% trans "Mozilla Firefox" %}</td>
+            <td>203.45.67.89</td>
+            <td>2024-01-25 09:20:15</td>
+        </tr>
+        <tr>
+            <td>{% trans "Safari" %}</td>
+            <td>178.62.14.220</td>
+            <td>2024-01-28 21:10:45</td>
+        </tr>
+        <tr>
+            <td>{% trans "Microsoft Edge" %}</td>
+            <td>154.90.32.67</td>
+            <td>2024-01-28 11:55:30</td>
+        </tr>
+    </tbody>
+</table>
+  </div>
+{% endblock section %}

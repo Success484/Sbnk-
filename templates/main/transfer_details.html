@@ -1,0 +1,76 @@
+{% extends 'main/profile.html' %}
+{% load static %}
+{% load humanize %}
+{% load i18n %}
+{% block section %}
+<div style="height: 80vh; margin-top: 30px; display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #f0f4ff, #d9e6ff); padding: 10px; box-sizing: border-box;">
+
+    <div style="width: 100%; max-width: 700px; background: #fff; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.2); padding: 20px; text-align: center; font-family: 'Poppins', sans-serif; display: flex; flex-direction: column; justify-content: space-between; height: 95vh; box-sizing: border-box;">
+
+        <div>
+    {% if transfer_details.transaction_info == 'Completed' %}
+        <div class="_" style="font-size: 50px; color: #4CAF50; margin-bottom: 10px;">✔️</div>
+    {% elif transfer_details.transaction_info == 'Pending' %}
+        <div style="font-size: 50px; color: #FFA500; margin-bottom: 10px;">⏳</div>
+    {% else %}
+        <div style="font-size: 50px; color: #999; margin-bottom: 10px;">❔</div>
+    {% endif %}
+
+    <h2 style="color: #333; font-size: 24px; margin-bottom: 5px;">
+        {% trans "Transaction" %} {% trans  transfer_details.transaction_info %}
+    </h2>
+    <p style="color: #666; font-size: 14px; margin-bottom: 20px;">
+        {% if transfer_details.transaction_info == 'Completed' %}
+            {% trans "Your transaction was completed successfully." %}
+        {% elif transfer_details.transaction_info == 'Pending' %}
+            {% trans "Your transaction is pending. Please wait for confirmation." %}
+        {% else %}
+            {% trans "Transaction status unknown." %}
+        {% endif %}
+    </p>
+</div>
+
+        <div style="flex-grow: 1; margin-bottom: 20px;">
+    <div style="text-align: left; background: #f9f9f9; border-radius: 15px; padding: 15px; box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);">
+        <h3 style="color: #4CAF50; font-size: 18px; margin-bottom: 10px;">{% trans "Transaction Details" %}</h3>
+        <table style="width: 100%; border-collapse: collapse; color: #555; font-size: 14px;">
+            <tr>
+                <td style="padding: 5px; font-weight: 600;">{% trans "Holder Name:" %}</td>
+                <td style="padding: 5px;">{{ transfer_details.holder_name }}</td>
+            </tr>
+            <tr>
+                <td style="padding: 5px; font-weight: 600;">{% trans "Amount:" %}</td>
+                <td style="padding: 5px; color: #4CAF50; font-weight: 700;">{% for profile in user_profile %}{{ profile.currencies }}{% endfor %} {{ transfer_details.amount|floatformat:0|intcomma }}</td>
+            </tr>
+            <tr>
+                <td style="padding: 5px; font-weight: 600;">{% trans "Account Number:" %}</td>
+                <td style="padding: 5px;">{{ transfer_details.account_number }}</td>
+            </tr>
+            <tr>
+                <td style="padding: 5px; font-weight: 600;">{% trans "Bank Name:" %}</td>
+                <td style="padding: 5px;">{{ transfer_details.bank_name }}</td>
+            </tr>
+            <tr>
+                <td style="padding: 5px; font-weight: 600;">{% trans "Description:" %}</td>
+                <td style="padding: 5px;">{{ transfer_details.description }}</td>
+            </tr>
+            <tr>
+                <td style="padding: 5px; font-weight: 600;">{% trans "Date:" %}</td>
+                <td style="padding: 5px;">{{ transfer_details.transfer_date }}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+        <div style="margin-top: 10px;">
+            <p style="color: #999; font-size: 12px; margin: 10px 0;">{% trans "If you did not authorize this transaction, please contact us immediately." %}</p>
+            <p style="color: #555; font-size: 13px; margin-bottom: 15px;">{% trans "Thanks," %}<br><strong>{% trans "Floxix Support Team" %}</strong></p>
+
+            <a href="{% url 'profile' %}" style="display: inline-block; background: linear-gradient(90deg, #4CAF50, #45a049); color: #fff; font-weight: 600; padding: 10px 25px; border-radius: 50px; text-decoration: none; font-size: 14px; transition: 0.3s; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+                {% trans "Continue" %}
+            </a>
+        </div>
+
+    </div>
+</div>
+{% endblock section %}
