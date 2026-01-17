@@ -23,7 +23,6 @@ SECRET_KEY = env('SECRET_KEY')
 # DEBUG = True
 
 ALLOWED_HOSTS = [
-    "floxix-production.up.railway.app",
     "127.0.0.1",
     "localhost",
     "floxixbanking.website",
@@ -31,7 +30,6 @@ ALLOWED_HOSTS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://floxix-production.up.railway.app",
     "https://floxixbanking.website",
     "https://www.floxixbanking.website",
 ]
