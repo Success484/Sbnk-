@@ -168,15 +168,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = 'profile'
 LOGOUT_REDIRECT_URL='home'
 LOGIN_URL = 'login'
-
-# ✅ Correct SendGrid setup
-# EMAIL_BACKEND = env('EMAIL_BACKEND')
-
-# # Use environment variable instead of hardcoding
-# SENDGRID_API_KEY = env('SENDGRID_API_KEY')
-
-# SENDGRID_SANDBOX_MODE_IN_DEBUG = False
-# SENDGRID_ECHO_TO_STDOUT = True
-
-# # Optional "From" email (should be verified in SendGrid)
-# DEFAULT_FROM_EMAIL = env('DEFAULT_FROM_EMAIL')
