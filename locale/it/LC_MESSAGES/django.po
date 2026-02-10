@@ -8,112 +8,113 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-10 11:43+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2026-02-10 12:11+0100\n"
+"PO-Revision-Date: 2026-02-10 12:11+0100\n"
+"Last-Translator: Success484 <>\n"
+"Language-Team: Italian <it@li.org>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: .\main_app\models.py:39 .\templates\main\profile_dashboard.html:170
 #: .\templates\main\profile_dashboard.html:174
 #: .\templates\main\summary.html:113
 msgid "Debit"
-msgstr "เดบิต"
+msgstr "Addebito"
 
 #: .\main_app\models.py:40 .\templates\main\profile_dashboard.html:169
 #: .\templates\main\profile_dashboard.html:173
 #: .\templates\main\summary.html:124 .\templates\main\summary.html:135
 #: .\templates\main\summary.html:146
 msgid "Credit"
-msgstr "เครดิต"
+msgstr "Credito"
 
 #: .\main_app\models.py:46
 msgid "Pending"
-msgstr "รอดำเนินการ"
+msgstr "In sospeso"
 
 #: .\main_app\models.py:47 .\templates\main\summary.html:120
 #: .\templates\main\summary.html:131 .\templates\main\summary.html:142
 #: .\templates\main\summary.html:153
 msgid "Completed"
-msgstr "เสร็จสิ้น"
+msgstr "Completato"
 
 #: .\main_app\models.py:54 .\templates\main\summary.html:136
 msgid "International Transfer"
-msgstr "การโอนเงินระหว่างประเทศ"
+msgstr "Bonifico Internazionale"
 
 #: .\main_app\models.py:55 .\templates\main\cross_border.html:18
 #: .\templates\main\summary.html:114 .\templates\main\summary.html:125
 msgid "Local Transfer"
-msgstr "การโอนย้ายภายในท้องถิ่น"
+msgstr "Bonifico Locale"
 
 #: .\main_app\models.py:56 .\templates\main\summary.html:147
 msgid "Check Deposite"
-msgstr "การฝากเช็ค"
+msgstr "Versamento Assegno"
 
 #: .\templates\base.html:114
 msgid "FLOXIX BANKING"
-msgstr "ฟล็อกซิกซ์ แบงกิ้ง"
+msgstr "FLOXIX BANKING"
 
 #: .\templates\base.html:119
 msgid "About"
-msgstr "เกี่ยวกับ"
+msgstr "Informazioni"
 
 #: .\templates\base.html:122 .\templates\main\index.html:264
 msgid "Services"
-msgstr "บริการ"
+msgstr "Servizi"
 
 #: .\templates\base.html:125
 msgid "Team"
-msgstr "ทีม"
+msgstr "Team"
 
 #: .\templates\base.html:128
 msgid "Contact"
-msgstr "ติดต่อ"
+msgstr "Contatti"
 
 #: .\templates\base.html:150
 msgid "Access acount"
-msgstr "บัญชีการเข้าถึง"
+msgstr "Accedi al conto"
 
 #: .\templates\base.html:167
 msgid "About Financial"
-msgstr "เกี่ยวกับการเงิน"
+msgstr "Informazioni finanziarie"
 
 #: .\templates\base.html:170
 msgid "uk"
-msgstr "uk"
+msgstr "Regno Unito"
 
 #: .\templates\base.html:182
 msgid "About Our Banking Services"
-msgstr "เกี่ยวกับบริการด้านธนาคารของเรา"
+msgstr "Informazioni sui nostri servizi bancari"
 
 #: .\templates\base.html:184
 msgid ""
 "We offer comprehensive financial services to help you manage your wealth."
-msgstr "เราให้บริการทางการเงินที่ครอบคลุมเพื่อช่วยคุณจัดการความมั่งคั่งของคุณ"
+msgstr ""
+"Offriamo servizi finanziari completi per aiutarti a gestire il tuo patrimonio."
 
 #: .\templates\base.html:188
 msgid "Newsletter"
-msgstr "จดหมายข่าว"
+msgstr "Newsletter"
 
 #: .\templates\base.html:195
 msgid "Subscribe"
-msgstr "สมัครสมาชิก"
+msgstr "Iscriviti"
 
 #: .\templates\base.html:233
 msgid "Copyright 2025 All Rights Reserved by"
-msgstr "ลิขสิทธิ์ 2025 สงวนลิขสิทธิ์โดย"
+msgstr "Copyright 2025 Tutti i diritti riservati a"
 
 #: .\templates\base.html:234
 msgid "Your Trusted Bank"
-msgstr "ธนาคารที่คุณไว้วางใจ"
+msgstr "La tua banca di fiducia"
 
 #: .\templates\main\about.html:10
 msgid "WELCOME TO FINANCIAL SERVICES"
-msgstr "ยินดีต้อนรับสู่บริการทางการเงิน"
+msgstr "BENVENUTO AI SERVIZI FINANZIARI"
 
 #: .\templates\main\about.html:11
 msgid ""
@@ -124,51 +125,52 @@ msgid ""
 "banking needs, anytime and anywhere. Experience the convenience of banking "
 "at your fingertips with Floxix."
 msgstr ""
-"ที่ Floxix Banking เรามุ่งมั่นที่จะมอบประสบการณ์การธนาคารออนไลน์ที่ราบรื่นและปลอดภัย "
-"ไม่ว่าคุณจะจัดการธุรกรรมประจำวัน วางแผนอนาคต หรือเข้าถึงเครื่องมือทางการเงินขั้นสูง "
-"แพลตฟอร์มของเราช่วยให้คุณจัดการทุกความต้องการทางการเงินของคุณได้อย่างง่ายดายและปลอดภัย "
-"ทุกที่ทุกเวลา สัมผัสประสบการณ์การธนาคารที่สะดวกสบายเพียงปลายนิ้วสัมผัสด้วย Floxix"
+"Presso Floxix Internet Banking ci impegniamo a offrire un'esperienza bancaria "
+"online fluida e sicura. Che tu stia gestendo operazioni quotidiane, pianificando "
+"il futuro o utilizzando strumenti finanziari avanzati, la nostra piattaforma ti "
+"permette di gestire facilmente e in sicurezza tutte le tue esigenze bancarie, in "
+"qualsiasi momento e ovunque. Scopri la comodità di banking a portata di mano con Floxix."
 
 #: .\templates\main\check_deposite.html:9
 msgid "Floxix Online Banking Check Debosite"
-msgstr "เช็คธนาคารออนไลน์ Floxix Debosite"
+msgstr "Versamento assegni online Floxix"
 
 #: .\templates\main\check_deposite.html:11
 msgid "You can deposite checks by snapping the front and back of the check"
-msgstr "คุณสามารถฝากเช็คได้โดยการหักเช็คด้านหน้าและด้านหลัง"
+msgstr "Puoi depositare assegni scattando una foto del fronte e del retro dell'assegno"
 
 #: .\templates\main\check_deposite.html:14 .\templates\main\other_bank.html:105
 #: .\templates\main\pay_bill.html:14 .\templates\main\transaction_page.html:105
 msgid "Select Account"
-msgstr "บัญชีของฉัน"
+msgstr "Seleziona account"
 
 #: .\templates\main\check_deposite.html:18 .\templates\main\loan.html:31
 #: .\templates\main\other_bank.html:112 .\templates\main\pay_bill.html:31
 #: .\templates\main\profile_dashboard.html:103
 #: .\templates\main\transaction_page.html:112
 msgid "Checking Account"
-msgstr "บัญชีเช็ค"
+msgstr "Conto corrente"
 
 #: .\templates\main\check_deposite.html:19 .\templates\main\loan.html:33
 #: .\templates\main\pay_bill.html:33 .\templates\main\profile_dashboard.html:84
 msgid "Available Balance"
-msgstr "ยอดคงเหลือที่ใช้ได้"
+msgstr "Saldo disponibile"
 
 #: .\templates\main\check_deposite.html:25
 msgid "Check Ammount"
-msgstr "ตรวจสอบจำนวนเงิน"
+msgstr "Importo assegno"
 
 #: .\templates\main\check_deposite.html:34
 msgid "Front of the check"
-msgstr "ด้านหน้าของเช็ค"
+msgstr "Fronte dell'assegno"
 
 #: .\templates\main\check_deposite.html:43
 msgid "Back of the check"
-msgstr "ด้านหลังของเช็ค"
+msgstr "Retro dell'assegno"
 
 #: .\templates\main\check_deposite.html:53
 msgid "Submit"
-msgstr "ส่ง"
+msgstr "Invia"
 
 #: .\templates\main\check_deposite.html:59
 #: .\templates\main\cross_border.html:74
@@ -176,7 +178,7 @@ msgstr "ส่ง"
 #: .\templates\main\loan.html:125 .\templates\main\pay_bill.html:124
 #: .\templates\main\register.html:45 .\templates\main\settings.html:48
 msgid "Loading..."
-msgstr "กำลังโหลด..."
+msgstr "Caricamento..."
 
 #: .\templates\main\check_deposite.html:61
 #: .\templates\main\cross_border.html:76
@@ -184,57 +186,58 @@ msgstr "กำลังโหลด..."
 #: .\templates\main\loan.html:127 .\templates\main\pay_bill.html:126
 #: .\templates\main\register.html:47 .\templates\main\settings.html:50
 msgid "Processing your transfer..."
-msgstr "การโอนข้ามพรมแดน"
+msgstr "Elaborazione del tuo trasferimento..."
 
 #: .\templates\main\check_deposite.html:67
 msgid ""
 "Note: our flash fund fee will be deducted from your account following the "
 "completion of this deposite"
 msgstr ""
-"หมายเหตุ: ค่าธรรมเนียมกองทุนแฟลชของเราจะถูกหักจากบัญชีของคุณหลังจากการฝากเงินนี้เสร็จสิ้น"
+"Nota: la nostra commissione per i fondi istantanei sarà detratta dal tuo conto al "
+"completamento di questo versamento"
 
 #: .\templates\main\check_deposite.html:70 .\templates\main\other_bank.html:295
 #: .\templates\main\profile_dashboard.html:197
 #: .\templates\main\transaction_page.html:295
 msgid "@ 2025 Floxix - All Rights Reserved"
-msgstr "@ 2025 Floxix - สงวนลิขสิทธิ์"
+msgstr "@ 2025 Floxix - Tutti i diritti riservati"
 
 #: .\templates\main\contact.html:8 .\templates\main\index.html:19
 msgid "Contact Us"
-msgstr "ติดต่อ"
+msgstr "Contattaci"
 
 #: .\templates\main\contact.html:9
 msgid ""
 "Get in touch with us to explore our banking solutions, receive expert "
 "financial advice, and find the services that best meet your needs."
 msgstr ""
-"ติดต่อเราเพื่อสำรวจโซลูชันการธนาคารของเรา รับคำแนะนำทางการเงินจากผู้เชี่ยวชาญ "
-"และค้นหาบริการที่ตรงกับความต้องการของคุณมากที่สุด"
+"Contattaci per scoprire le nostre soluzioni bancarie, ricevere consulenza "
+"finanziaria esperta e trovare i servizi più adatti alle tue esigenze."
 
 #: .\templates\main\contact.html:14
 msgid "Name"
-msgstr "ชื่อ"
+msgstr "Nome"
 
 #: .\templates\main\contact.html:15 .\templates\main\register.html:23
 #: .\templates\main\register.html:24
 msgid "Phone Number"
-msgstr "หมายเลขโทรศัพท์"
+msgstr "Numero di telefono"
 
 #: .\templates\main\contact.html:16
 msgid "Email"
-msgstr "อีเมล"
+msgstr "Email"
 
 #: .\templates\main\contact.html:17
 msgid "Message"
-msgstr "ข้อความ"
+msgstr "Messaggio"
 
 #: .\templates\main\contact.html:18
 msgid "send"
-msgstr "ส่ง"
+msgstr "invia"
 
 #: .\templates\main\cross_border.html:8
 msgid "Cross-border transfer."
-msgstr "การโอนเงินข้ามพรมแดน"
+msgstr "Bonifico transfrontaliero."
 
 #: .\templates\main\cross_border.html:9
 msgid ""
@@ -242,57 +245,58 @@ msgid ""
 "different countries. The funds are deposited into the recipient bank "
 "account, associated with the IBAN or Swift code you have added."
 msgstr ""
-"การโอนเงินข้ามพรมแดนเป็นวิธีโอนเงินข้ามประเทศที่รวดเร็วและปลอดภัย "
-"เงินจะถูกฝากเข้าบัญชีธนาคารของผู้รับ โดยเชื่อมโยงกับรหัส IBAN หรือรหัส Swift ที่คุณได้เพิ่มไว้"
+"Il bonifico transfrontaliero è un modo rapido e sicuro per trasferire denaro "
+"tra paesi diversi. I fondi vengono accreditati sul conto bancario del "
+"destinatario, associato all'IBAN o al codice SWIFT fornito."
 
 #: .\templates\main\cross_border.html:30
 msgid "Choose recipient"
-msgstr "เลือกผู้รับ"
+msgstr "Scegli destinatario"
 
 #: .\templates\main\cross_border.html:33
 msgid "Select a recipient been added"
-msgstr "เลือกผู้รับที่ถูกเพิ่ม"
+msgstr "Seleziona un destinatario aggiunto"
 
 #: .\templates\main\cross_border.html:34
 msgid "no recipient yet"
-msgstr "ยังไม่มีผู้รับ"
+msgstr "nessun destinatario ancora"
 
 #: .\templates\main\cross_border.html:39 .\templates\main\pay_bill.html:51
 msgid "Choose delivery date"
-msgstr "เลือกวันที่จัดส่ง"
+msgstr "Scegli la data di consegna"
 
 #: .\templates\main\cross_border.html:46 .\templates\main\other_bank.html:168
 #: .\templates\main\pay_bill.html:58 .\templates\main\transaction_page.html:168
 msgid "Amount to Transfer"
-msgstr "จำนวนเงินที่ต้องการโอน"
+msgstr "Importo da trasferire"
 
 #: .\templates\main\cross_border.html:48 .\templates\main\other_bank.html:178
 #: .\templates\main\transaction_page.html:178
 msgid "Daily Transfer Limit"
-msgstr "ขีดจำกัดการโอนรายวัน"
+msgstr "Limite giornaliero di trasferimento"
 
 #: .\templates\main\cross_border.html:58
 #: .\templates\main\crypto_deposite.html:75 .\templates\main\loan.html:88
 #: .\templates\main\other_bank.html:208
 #: .\templates\main\transaction_page.html:208
 msgid "Minimum"
-msgstr "ขั้นต่ำ"
+msgstr "Minimo"
 
 #: .\templates\main\cross_border.html:64 .\templates\main\other_bank.html:247
 #: .\templates\main\transaction_page.html:247
 msgid "Description (optional)"
-msgstr "คำอธิบาย (ไม่บังคับ)"
+msgstr "Descrizione (opzionale)"
 
 #: .\templates\main\cross_border.html:68
 #: .\templates\main\crypto_deposite.html:77 .\templates\main\loan.html:118
 #: .\templates\main\pay_bill.html:117 .\templates\main\settings.html:42
 #: .\templates\main\transfer_details.html:70
 msgid "Continue"
-msgstr "ดำเนินการต่อ"
+msgstr "Continua"
 
 #: .\templates\main\crypto_deposite.html:8
 msgid "Manage Digital Assets"
-msgstr "การจัดการสินทรัพย์ดิจิทัล"
+msgstr "Gestisci asset digitali"
 
 #: .\templates\main\crypto_deposite.html:10
 msgid ""
@@ -300,41 +304,41 @@ msgid ""
 "accounts and wallets so that they can easily keep an eye on all of their "
 "cryptocurrency holdings using a single dashboard."
 msgstr ""
-"เครื่องมือจัดการสินทรัพย์ Crypto ของ Floxix ช่วยให้ผู้ใช้สามารถเชื่อมโยงบัญชี crypto "
-"และกระเป๋าเงินหลายบัญชีเข้าด้วยกัน "
-"เพื่อให้สามารถติดตามการถือครองสกุลเงินดิจิทัลทั้งหมดของตนได้อย่างง่ายดายโดยใช้แดชบอร์ดเดียว"
+"Lo strumento di gestione crypto di Floxix consente agli utenti di collegare più "
+"conti e portafogli crypto in modo da monitorare facilmente tutte le loro "
+"detenzioni di criptovalute da un'unica dashboard."
 
 #: .\templates\main\crypto_deposite.html:25
 msgid "crypto Currencies"
-msgstr "สกุลเงินดิจิทัล"
+msgstr "Criptovalute"
 
 #: .\templates\main\crypto_deposite.html:33
 msgid "which Crypto Asset will you"
-msgstr "สินทรัพย์ Crypto ใดที่คุณจะ"
+msgstr "Quale asset crypto vuoi"
 
 #: .\templates\main\crypto_deposite.html:33
 msgid "like to Deposite?"
-msgstr "ชอบฝากเงินใช่ไหม?"
+msgstr "depositare?"
 
 #: .\templates\main\crypto_deposite.html:35
 msgid "Choose Your Preffered Asset"
-msgstr "เลือกสินทรัพย์ที่คุณต้องการ"
+msgstr "Scegli il tuo asset preferito"
 
 #: .\templates\main\crypto_deposite.html:40
 msgid "Choose Crypto Asset"
-msgstr "เลือกสินทรัพย์ Crypto"
+msgstr "Scegli asset crypto"
 
 #: .\templates\main\crypto_deposite.html:46
 msgid "Amount to Deposit"
-msgstr "จำนวนเงินที่ต้องฝาก"
+msgstr "Importo da depositare"
 
 #: .\templates\main\index.html:6
 msgid "financial"
-msgstr "เกี่ยวกับการเงิน"
+msgstr "finanziario"
 
 #: .\templates\main\index.html:7
 msgid "Service"
-msgstr "บริการ"
+msgstr "Servizio"
 
 #: .\templates\main\index.html:11
 msgid ""
@@ -343,22 +347,22 @@ msgid ""
 "and personalized guidance. Our goal is to be a long-term partner in your "
 "financial journey"
 msgstr ""
-"เราไม่เพียงแต่ช่วยให้คุณบรรลุเป้าหมายทางการเงินเท่านั้น "
-"แต่เรายังทำงานร่วมกับคุณเพื่อสร้างความสัมพันธ์ที่ยั่งยืนบนพื้นฐานของความไว้วางใจ ความเข้าใจ "
-"และคำแนะนำเฉพาะบุคคล เป้าหมายของเราคือการเป็นพันธมิตรระยะยาวในเส้นทางการเงินของคุณ"
+"Non ci limitiamo ad aiutarti a raggiungere i tuoi obiettivi finanziari, lavoriamo "
+"insieme a te per costruire relazioni durature basate su fiducia, comprensione e "
+"consulenza personalizzata. Il nostro obiettivo è essere un partner a lungo termine "
+"nel tuo percorso finanziario."
 
 #: .\templates\main\index.html:16 .\templates\main\index.html:40
 #: .\templates\main\index.html:82 .\templates\main\index.html:96
 #: .\templates\main\index.html:110 .\templates\main\index.html:124
 #: .\templates\main\index.html:145 .\templates\main\services.html:20
 #: .\templates\main\services.html:31 .\templates\main\services.html:41
-#: .\templates\main\services.html:51
 msgid "Read More"
-msgstr "อ่านเพิ่มเติม"
+msgstr "Leggi di più"
 
 #: .\templates\main\index.html:33
 msgid "WELCOME TO FLOXIX BANKING"
-msgstr "ยินดีต้อนรับสู่ FLOXIX BANKING"
+msgstr "BENVENUTO IN FLOXIX BANKING"
 
 #: .\templates\main\index.html:36
 msgid ""
@@ -369,14 +373,15 @@ msgid ""
 "anywhere. Experience the convenience of banking at your fingertips with "
 "Floxix."
 msgstr ""
-"ที่ Floxix Banking เรามุ่งมั่นที่จะมอบประสบการณ์การธนาคารออนไลน์ที่ราบรื่นและปลอดภัย "
-"ไม่ว่าคุณจะจัดการธุรกรรมประจำวัน วางแผนอนาคต หรือเข้าถึงเครื่องมือทางการเงินขั้นสูง "
-"แพลตฟอร์มของเราช่วยให้คุณจัดการทุกความต้องการทางการเงินของคุณได้อย่างง่ายดายและปลอดภัย "
-"ทุกที่ทุกเวลา สัมผัสประสบการณ์การธนาคารที่สะดวกสบายเพียงปลายนิ้วสัมผัสด้วย Floxix"
+"Presso Floxix Banking ci impegniamo a offrire un'esperienza bancaria online "
+"fluida e sicura. Che tu stia gestendo operazioni quotidiane, pianificando il "
+"futuro o utilizzando strumenti finanziari avanzati, la nostra piattaforma ti "
+"permette di gestire facilmente e in sicurezza tutte le tue esigenze bancarie, "
+"in qualsiasi momento e ovunque. Scopri la comodità del banking a portata di mano con Floxix."
 
 #: .\templates\main\index.html:61 .\templates\main\services.html:8
 msgid "WHAT WE DO"
-msgstr "สิ่งที่เราทำ"
+msgstr "COSA FACCIAMO"
 
 #: .\templates\main\index.html:63
 msgid ""
@@ -389,47 +394,48 @@ msgid ""
 "so\n"
 "      you can focus on what matters most to you. "
 msgstr ""
-"ที่ Floxix Internet Banking เรานำเสนอบริการทางการเงินที่หลากหลาย "
-"ซึ่งออกแบบมาเพื่อตอบสนองความต้องการเฉพาะของคุณ ตั้งแต่ธุรกรรมทางการเงินในชีวิตประจำวัน "
-"ไปจนถึงการวางแผนทางการเงินส่วนบุคคล เรามีเครื่องมือที่ปลอดภัยและใช้งานง่าย "
-"ที่จะช่วยให้คุณจัดการเงินได้อย่างมั่นใจ เป้าหมายของเราคือการทำให้การทำธุรกรรมทางการเงินง่ายขึ้น "
-"มีประสิทธิภาพมากขึ้น และเข้าถึงได้ง่ายขึ้น เพื่อให้คุณสามารถมุ่งเน้นไปที่สิ่งที่สำคัญสำหรับคุณมากที่สุด"
+"Presso Floxix Internet Banking offriamo una vasta gamma di servizi finanziari "
+"progettati per soddisfare le tue esigenze. Dalle operazioni bancarie quotidiane "
+"alla pianificazione finanziaria personalizzata, forniamo strumenti sicuri e facili "
+"da usare che aiutano a gestire i tuoi soldi con fiducia. Il nostro obiettivo è "
+"rendere il banking più semplice, efficiente e accessibile, così puoi concentrarti su "
+"ciò che conta di più per te."
 
 #: .\templates\main\index.html:77 .\templates\main\services.html:17
 msgid "Account Management"
-msgstr "การจัดการบัญชี"
+msgstr "Gestione account"
 
 #: .\templates\main\index.html:79 .\templates\main\services.html:18
 msgid "Secure and efficient account management solutions."
-msgstr "โซลูชันการจัดการบัญชีที่ปลอดภัยและมีประสิทธิภาพ"
+msgstr "Soluzioni per la gestione dell'account sicure ed efficienti."
 
 #: .\templates\main\index.html:91 .\templates\main\services.html:28
 msgid "Financial Advisory"
-msgstr "ที่ปรึกษาทางการเงิน"
+msgstr "Consulenza finanziaria"
 
 #: .\templates\main\index.html:93 .\templates\main\services.html:29
 msgid "Expert advice to help you manage your finances."
-msgstr "คำแนะนำจากผู้เชี่ยวชาญที่จะช่วยคุณจัดการการเงินของคุณ"
+msgstr "Consulenza esperta per aiutarti a gestire le tue finanze."
 
 #: .\templates\main\index.html:105 .\templates\main\services.html:38
 msgid "Investments"
-msgstr "การลงทุน"
+msgstr "Investimenti"
 
 #: .\templates\main\index.html:107 .\templates\main\services.html:39
 msgid "Grow your wealth with our investment solutions."
-msgstr "เพิ่มพูนความมั่งคั่งของคุณด้วยโซลูชั่นการลงทุนของเรา"
+msgstr "Fai crescere il tuo patrimonio con le nostre soluzioni di investimento."
 
 #: .\templates\main\index.html:119 .\templates\main\services.html:48
 msgid "Financial Planning"
-msgstr "การวางแผนทางการเงิน"
+msgstr "Pianificazione finanziaria"
 
 #: .\templates\main\index.html:121 .\templates\main\services.html:49
 msgid "Plan for your future with our expert guidance."
-msgstr "วางแผนอนาคตของคุณด้วยคำแนะนำจากผู้เชี่ยวชาญของเรา"
+msgstr "Pianifica il tuo futuro con la nostra guida esperta."
 
 #: .\templates\main\index.html:140
 msgid "Our Banking Services"
-msgstr "เกี่ยวกับบริการด้านธนาคารของเรา"
+msgstr "I nostri servizi bancari"
 
 #: .\templates\main\index.html:142
 msgid ""
@@ -437,29 +443,30 @@ msgid ""
 "banking goals. Explore our wide range of services tailored to meet your "
 "needs."
 msgstr ""
-"เรามอบโซลูชันทางการเงินที่ปลอดภัยและเชื่อถือได้ เพื่อช่วยให้คุณบรรลุเป้าหมายทางการเงิน "
-"สำรวจบริการที่หลากหลายของเราที่ออกแบบมาเพื่อตอบสนองความต้องการของคุณ"
+"Forniamo soluzioni finanziarie sicure e affidabili per aiutarti a raggiungere i "
+"tuoi obiettivi bancari. Esplora la nostra vasta gamma di servizi su misura per le "
+"tue esigenze."
 
 #: .\templates\main\index.html:169 .\templates\main\index.html:186
 #: .\templates\main\index.html:205 .\templates\main\index.html:222
 msgid "Established Fact"
-msgstr "ข้อเท็จจริงที่ได้รับการพิสูจน์แล้ว"
+msgstr "Fatto consolidato"
 
 #: .\templates\main\index.html:240
 msgid "Years of Business"
-msgstr "ปีแห่งการดำเนินธุรกิจ"
+msgstr "Anni di attività"
 
 #: .\templates\main\index.html:248
 msgid "Projects Delivered"
-msgstr "โครงการที่ส่งมอบ"
+msgstr "Progetti consegnati"
 
 #: .\templates\main\index.html:256
 msgid "Satisfied Customers"
-msgstr "ลูกค้าพึงพอใจ"
+msgstr "Clienti soddisfatti"
 
 #: .\templates\main\index.html:273 .\templates\main\team.html:9
 msgid "Our Banking Team and Experts"
-msgstr "ทีมงานธนาคารและผู้เชี่ยวชาญของเรา"
+msgstr "Il nostro team bancario ed esperti"
 
 #: .\templates\main\index.html:275 .\templates\main\team.html:11
 msgid ""
@@ -467,37 +474,38 @@ msgid ""
 "financial advice and solutions, ensuring your success in managing wealth and "
 "investments."
 msgstr ""
-"ผู้เชี่ยวชาญทางการธนาคารที่มีประสบการณ์ของเรามุ่งมั่นที่จะให้คำแนะนำและโซลูชั่นทางการเงิน "
-"จากผู้เชี่ยวชาญ เพื่อให้คุณประสบความสำเร็จในการบริหารความมั่งคั่งและการลงทุน"
+"I nostri professionisti bancari esperti sono dedicati a fornire consulenza "
+"finanziaria e soluzioni esperte, garantendo il tuo successo nella gestione del "
+"patrimonio e degli investimenti."
 
 #: .\templates\main\index.html:282 .\templates\main\team.html:18
 msgid "Branch Manager"
-msgstr "ผู้จัดการสาขา"
+msgstr "Responsabile filiale"
 
 #: .\templates\main\index.html:303 .\templates\main\team.html:39
 msgid "Financial Advisor"
-msgstr "ที่ปรึกษาทางการเงิน"
+msgstr "Consulente finanziario"
 
 #: .\templates\main\index.html:324 .\templates\main\team.html:60
 msgid "Loan Officer"
-msgstr "เจ้าหน้าที่สินเชื่อ"
+msgstr "Addetto prestiti"
 
 #: .\templates\main\index.html:345 .\templates\main\team.html:81
 msgid "Customer Service"
-msgstr "ฝ่ายบริการลูกค้า"
+msgstr "Servizio clienti"
 
 #: .\templates\main\index.html:388 .\templates\main\index.html:421
 #: .\templates\main\index.html:454
 msgid "What Our Clients Say"
-msgstr "สิ่งที่ลูกค้าของเราพูด"
+msgstr "Cosa dicono i nostri clienti"
 
 #: .\templates\main\index.html:416
 msgid ""
 "\"The banking services provided have been exceptional. They have helped us "
 "streamline our financial processes and plan for the future with confidence.\""
 msgstr ""
-"\"บริการทางการเงินของเรายอดเยี่ยมมาก "
-"ช่วยให้เราปรับปรุงกระบวนการทางการเงินและวางแผนอนาคตได้อย่างมั่นใจ"
+"\"I servizi bancari forniti sono stati eccezionali. Ci hanno aiutato a semplificare "
+"i nostri processi finanziari e a pianificare il futuro con fiducia.\""
 
 #: .\templates\main\index.html:449
 msgid ""
@@ -505,28 +513,28 @@ msgid ""
 "business, We are now more informed and empowered to make strategic decisions."
 "\""
 msgstr ""
-"\"บริการให้คำปรึกษาทางการเงินของพวกเขาถือเป็นจุดเปลี่ยนสำคัญสำหรับธุรกิจของเรา "
-"ตอนนี้เรามีข้อมูลและอำนาจในการตัดสินใจเชิงกลยุทธ์มากขึ้น"
+"\"I loro servizi di consulenza finanziaria hanno rivoluzionato la nostra attività. "
+"Ora siamo più informati e in grado di prendere decisioni strategiche.\""
 
 #: .\templates\main\index.html:480
 msgid ""
 "\"The investment options offered have significantly grown our portfolio, and "
 "we feel confident in our financial future.\""
 msgstr ""
-"\"ตัวเลือกการลงทุนที่นำเสนอทำให้พอร์ตการลงทุนของเราเติบโตขึ้นอย่างมีนัยสำคัญ "
-"และเรามั่นใจในอนาคตทางการเงินของเรา"
+"\"Le opzioni di investimento offerte hanno fatto crescere significativamente il "
+"nostro portafoglio e ci sentiamo fiduciosi nel nostro futuro finanziario.\""
 
 #: .\templates\main\kyc.html:8
 msgid "KYC Verification"
-msgstr "การยืนยัน KYC"
+msgstr "Verifica KYC"
 
 #: .\templates\main\kyc.html:9
 msgid ""
 "To comply with regulation each participant will have to go through identity "
 "verification (KYC/AML) to prevent fraud cases"
 msgstr ""
-"เพื่อให้เป็นไปตามกฎระเบียบ ผู้เข้าร่วมแต่ละคนจะต้องผ่านการยืนยันตัวตน (KYC/AML) "
-"เพื่อป้องกันกรณีฉ้อโกง"
+"Per conformarsi alla normativa, ogni partecipante dovrà sottoporsi alla verifica "
+"dell'identità (KYC/AML) per prevenire casi di frode."
 
 #: .\templates\main\kyc.html:15
 msgid ""
@@ -534,421 +542,419 @@ msgid ""
 "order to continue using Floxix online banking products, please verify your "
 "identity"
 msgstr ""
-"คุณยังไม่ได้ส่งเอกสารที่จำเป็นเพื่อยืนยันตัวตนของคุณ หากต้องการใช้ผลิตภัณฑ์ธนาคารออนไลน์ของ "
-"Floxix ต่อไป โปรดยืนยันตัวตนของคุณ"
+"Non hai inviato i documenti necessari per verificare la tua identità. Per "
+"continuare a utilizzare i prodotti di banking online Floxix, verifica la tua identità."
 
 #: .\templates\main\kyc.html:17
 msgid "Click here to complete your KYC"
-msgstr "คลิกที่นี่เพื่อกรอก KYC ของคุณ"
+msgstr "Clicca qui per completare il tuo KYC"
 
 #: .\templates\main\loan.html:5
 msgid "Apply For Floxix Loan"
-msgstr "สมัครสินเชื่อ Floxix"
+msgstr "Richiedi un prestito Floxix"
 
 #: .\templates\main\loan.html:14
 msgid "Account In Account"
-msgstr "บัญชีในบัญชี"
+msgstr "Conto in conto"
 
 #: .\templates\main\loan.html:41
 msgid "Credit Facility"
-msgstr "สินเชื่อ"
+msgstr "Linea di credito"
 
 #: .\templates\main\loan.html:46
 msgid "Select Loan/Credit Facility"
-msgstr "เลือกสินเชื่อ/สิ่งอำนวยความสะดวกด้านสินเชื่อ"
+msgstr "Seleziona prestito/linea di credito"
 
 #: .\templates\main\loan.html:47
 msgid "no current loans"
-msgstr "ไม่มีเงินกู้ในปัจจุบัน"
+msgstr "nessun prestito attivo"
 
 #: .\templates\main\loan.html:51
 msgid "Repayment date"
-msgstr "วันที่ชำระเงินคืน"
+msgstr "Data di rimborso"
 
 #: .\templates\main\loan.html:58
 msgid "Loan Amount"
-msgstr "จำนวนเงินกู้"
+msgstr "Importo prestito"
 
 #: .\templates\main\loan.html:89
 msgid "Maximum"
-msgstr "สูงสุด"
+msgstr "Massimo"
 
 #: .\templates\main\loan.html:107
 msgid "Why do you want to take a loan?"
-msgstr "ทำไมคุณถึงต้องการกู้เงิน?"
+msgstr "Perché vuoi richiedere un prestito?"
 
 #: .\templates\main\login.html:9
 msgid "Sign-in"
-msgstr "ลงชื่อเข้าใช้"
+msgstr "Accedi"
 
 #: .\templates\main\login.html:11
 msgid "Access the Floxix banking panel using your Account number and password."
-msgstr "เข้าถึงแดชบอร์ด Floxix Bank ของคุณโดยใช้หมายเลขบัญชีและรหัสผ่านของคุณ"
+msgstr "Accedi al pannello Floxix utilizzando il tuo numero di conto e la password."
 
 #: .\templates\main\login.html:14 .\templates\main\other_bank.html:122
 #: .\templates\main\transaction_page.html:122
 msgid "Account Number"
-msgstr "หมายเลขบัญชี"
+msgstr "Numero di conto"
 
 #: .\templates\main\login.html:15
 msgid "Enter your account number"
-msgstr "กรอกหมายเลขบัญชีของคุณ"
+msgstr "Inserisci il tuo numero di conto"
 
 #: .\templates\main\login.html:17 .\templates\main\register.html:32
 msgid "Password"
-msgstr "รหัสผ่าน"
+msgstr "Password"
 
 #: .\templates\main\login.html:18
 msgid "Enter your password"
-msgstr "กรอกรหัสผ่านของคุณ"
+msgstr "Inserisci la tua password"
 
 #: .\templates\main\login.html:20
 msgid "Log in"
-msgstr "เข้าสู่ระบบ"
+msgstr "Accedi"
 
 #: .\templates\main\login.html:22
 msgid "Forgotten password?"
-msgstr "ลืมรหัสผ่านใช่ไหม?"
+msgstr "Password dimenticata?"
 
 #: .\templates\main\login.html:27
 msgid "Create new account"
-msgstr "สร้างบัญชีใหม่"
+msgstr "Crea un nuovo account"
 
 #: .\templates\main\other_bank.html:102
 #: .\templates\main\transaction_page.html:102
 msgid "Transfer To a Floxix Account"
-msgstr "โอนไปยังบัญชี Floxix"
+msgstr "Trasferisci a un conto Floxix"
 
 #: .\templates\main\other_bank.html:136
 #: .\templates\main\transaction_page.html:136
 msgid "Recipient account number"
-msgstr "หมายเลขบัญชีผู้รับ"
+msgstr "Numero di conto del destinatario"
 
 #: .\templates\main\other_bank.html:144
 #: .\templates\main\transaction_page.html:144
 msgid "Holder Name"
-msgstr "ชื่อผู้ถือ"
+msgstr "Nome intestatario"
 
 #: .\templates\main\other_bank.html:158
 #: .\templates\main\transaction_page.html:158
 msgid "Account holder name"
-msgstr "ชื่อเจ้าของบัญชี"
+msgstr "Nome del titolare del conto"
 
 #: .\templates\main\other_bank.html:226
 #: .\templates\main\transaction_page.html:226
 msgid "Bank name"
-msgstr "ชื่อธนาคาร"
+msgstr "Nome banca"
 
 #: .\templates\main\other_bank.html:257
 #: .\templates\main\transaction_page.html:257
 msgid "Transaction PIN"
-msgstr "รหัส PIN การทำธุรกรรม"
+msgstr "PIN transazione"
 
 #: .\templates\main\other_bank.html:266
 #: .\templates\main\transaction_page.html:266
 msgid "Enter 4-digit PIN"
-msgstr "กรอกรหัส PIN 4 หลัก"
+msgstr "Inserisci il PIN a 4 cifre"
 
 #: .\templates\main\other_bank.html:273
 #: .\templates\main\transaction_page.html:273
 msgid "Your PIN is required to complete the transfer."
-msgstr "ต้องใช้ PIN ของคุณเพื่อทำการโอนให้เสร็จสมบูรณ์"
+msgstr "Il tuo PIN è necessario per completare il trasferimento."
 
 #: .\templates\main\other_bank.html:284
 #: .\templates\main\transaction_page.html:284
 msgid "Continue to Next Step"
-msgstr "ดำเนินการขั้นตอนถัดไป"
+msgstr "Continua al passo successivo"
 
 #: .\templates\main\pay_bill.html:5
 msgid "Floxix Online Banking Bills Payment"
-msgstr "การชำระบิลผ่านธนาคารออนไลน์ Floxix"
+msgstr "Pagamento bollette online Floxix"
 
 #: .\templates\main\pay_bill.html:41 .\templates\main\pay_bill.html:46
 msgid "Select a bill to pay"
-msgstr "เลือกบิลที่จะชำระ"
+msgstr "Seleziona una bolletta da pagare"
 
 #: .\templates\main\pay_bill.html:47
 msgid "no bills yet"
-msgstr "ยังไม่มีบิล"
+msgstr "ancora nessuna bolletta"
 
 #: .\templates\main\pay_bill.html:89
 msgid "Bill pay fee will be deducted"
-msgstr "จะมีการหักค่าธรรมเนียมการชำระบิล"
+msgstr "La commissione per il pagamento della bolletta sarà detratta"
 
 #: .\templates\main\pay_bill.html:106
 msgid "Memo (optional)"
-msgstr "บันทึก (ไม่บังคับ)"
+msgstr "Promemoria (opzionale)"
 
 #: .\templates\main\profile.html:36
 msgid "Do you know about our latest update?"
-msgstr "คุณทราบเกี่ยวกับการอัปเดตล่าสุดของเราหรือไม่?"
+msgstr "Conosci il nostro ultimo aggiornamento?"
 
 #: .\templates\main\profile.html:38
 msgid "An overview of ours is now available..."
-msgstr "ภาพรวมของเราพร้อมให้บริการแล้ว"
+msgstr "Una panoramica è ora disponibile..."
 
 #: .\templates\main\profile.html:49
 msgid "Connected"
-msgstr "เชื่อมต่อแล้ว"
+msgstr "Connesso"
 
 #: .\templates\main\profile.html:74
 msgid "Logout"
-msgstr "ออกจากระบบ"
+msgstr "Esci"
 
 #: .\templates\main\profile.html:90
 msgid "AVAILABLE BALANCE"
-msgstr "ยอดคงเหลือที่ใช้ได้"
+msgstr "SALDO DISPONIBILE"
 
 #: .\templates\main\profile.html:112
 msgid "Income"
-msgstr "รายได้"
+msgstr "Entrate"
 
 #: .\templates\main\profile.html:113
 msgid "Debits"
-msgstr "เดบิต"
+msgstr "Addebiti"
 
 #: .\templates\main\profile.html:132
 msgid "TRANSFER"
-msgstr "โอนย้าย"
+msgstr "TRASFERIMENTO"
 
 #: .\templates\main\profile.html:135
 msgid "PAY BILLS"
-msgstr "ชำระบิล"
+msgstr "PAGA BOLLETTE"
 
 #: .\templates\main\profile.html:141
 msgid "MENU"
-msgstr "เมนู"
+msgstr "MENU"
 
 #: .\templates\main\profile.html:145
 msgid "Dashboard"
-msgstr "แดชบอร์ด"
+msgstr "Dashboard"
 
 #: .\templates\main\profile.html:150
 msgid "My Account"
-msgstr "บัญชีของฉัน"
+msgstr "Il mio account"
 
 #: .\templates\main\profile.html:155
 msgid "Account Summary"
-msgstr "สรุปบัญชี"
+msgstr "Riepilogo conto"
 
 #: .\templates\main\profile.html:170
 msgid "Send Money"
-msgstr "ส่งเงิน"
+msgstr "Invia denaro"
 
 #: .\templates\main\profile.html:183
 msgid "Floxix Transfer"
-msgstr "Floxix โอนย้าย"
+msgstr "Trasferimento Floxix"
 
 #: .\templates\main\profile.html:196
 msgid "Other bank transfer"
-msgstr "โอนเงินผ่านธนาคารอื่น ๆ"
+msgstr "Bonifico ad altra banca"
 
 #: .\templates\main\profile.html:209
 msgid "Cross-border transfer"
-msgstr "การโอนเงินข้ามพรมแดน"
+msgstr "Bonifico transfrontaliero"
 
 #: .\templates\main\profile.html:216
 msgid "Cross-border Transfer"
-msgstr "การโอนเงินข้ามพรมแดน"
+msgstr "Bonifico transfrontaliero"
 
 #: .\templates\main\profile.html:221
 msgid "Deposit Check"
-msgstr "เช็คเงินฝาก"
+msgstr "Deposita assegno"
 
 #: .\templates\main\profile.html:226
 msgid "Pay Bills"
-msgstr "ชำระบิล"
+msgstr "Paga bollette"
 
 #: .\templates\main\profile.html:231
 msgid "Virtual Cards"
-msgstr "การ์ดเสมือนจริง"
+msgstr "Carte virtuali"
 
 #: .\templates\main\profile.html:246
 msgid "Crypto Currency"
-msgstr "สกุลเงินดิจิทัล"
+msgstr "Criptovaluta"
 
 #: .\templates\main\profile.html:259
 msgid "Manage Assets"
-msgstr "การจัดการสินทรัพย์"
+msgstr "Gestisci asset"
 
 #: .\templates\main\profile.html:272
 msgid "Deposite Crypto"
-msgstr "เงินฝาก"
+msgstr "Deposita crypto"
 
 #: .\templates\main\profile.html:285
 msgid "Flate Withdraw"
-msgstr "ถอนเงินแบบแฟลต"
+msgstr "Prelievo istantaneo"
 
 #: .\templates\main\profile.html:292
 msgid "KYC Status"
-msgstr "สถานะ KYC"
+msgstr "Stato KYC"
 
 #: .\templates\main\profile.html:297
 msgid "Loan/Credit financing"
-msgstr "สินเชื่อ/การจัดหาเงินทุนเครดิต"
+msgstr "Finanziamento/credito"
 
 #: .\templates\main\profile.html:302
 msgid "Support"
-msgstr "สนับสนุน"
+msgstr "Supporto"
 
 #: .\templates\main\profile.html:307
 msgid "Account Settings"
-msgstr "การตั้งค่าบัญชี"
+msgstr "Impostazioni account"
 
 #: .\templates\main\profile_dashboard.html:8
 msgid "Chat"
-msgstr "แชท"
+msgstr "Chat"
 
 #: .\templates\main\profile_dashboard.html:21
 msgid "Chat with Us"
-msgstr "แชทกับเรา"
+msgstr "Chatta con noi"
 
 #: .\templates\main\profile_dashboard.html:39
 msgid "Type a message..."
-msgstr "พิมพ์ข้อความ..."
+msgstr "Scrivi un messaggio..."
 
 #: .\templates\main\profile_dashboard.html:42
 msgid "Send"
-msgstr "ส่ง"
+msgstr "Invia"
 
 #: .\templates\main\profile_dashboard.html:51
 msgid "Good Day"
-msgstr "สวัสดี"
+msgstr "Buona giornata"
 
 #: .\templates\main\profile_dashboard.html:52
 msgid "At a glance summary of your account!"
-msgstr "ภาพรวมอย่างรวดเร็วของบัญชีของคุณ!"
+msgstr "Riepilogo rapido del tuo account!"
 
 #: .\templates\main\profile_dashboard.html:57
 msgid "Deposit"
-msgstr "เงินฝาก"
+msgstr "Deposito"
 
 #: .\templates\main\profile_dashboard.html:67
 #: .\templates\main\profile_dashboard.html:104
 msgid "Transfer Fund"
-msgstr "โอนเงิน"
+msgstr "Trasferisci fondi"
 
 #: .\templates\main\profile_dashboard.html:75
 msgid "Overview"
-msgstr "ภาพรวม"
+msgstr "Panoramica"
 
 #: .\templates\main\profile_dashboard.html:80
 msgid "Last Login"
-msgstr "การเข้าสู่ระบบครั้งสุดท้าย"
+msgstr "Ultimo accesso"
 
 #: .\templates\main\profile_dashboard.html:93
 msgid "Your IP Address"
-msgstr "ที่อยู่ IP ของคุณ"
+msgstr "Il tuo indirizzo IP"
 
 #: .\templates\main\profile_dashboard.html:96
-#, fuzzy
-#| msgid "Loading..."
 msgid "Loading... "
-msgstr "กำลังโหลด..."
+msgstr "Caricamento... "
 
 #: .\templates\main\profile_dashboard.html:111
 msgid "Loans and lines of credit"
-msgstr "สินเชื่อและวงเงินสินเชื่อ"
+msgstr "Prestiti e linee di credito"
 
 #: .\templates\main\profile_dashboard.html:112
 msgid "Pay bills"
-msgstr "ชำระบิล"
+msgstr "Paga bollette"
 
 #: .\templates\main\profile_dashboard.html:116
 msgid "Business Support Loan"
-msgstr "สินเชื่อสนับสนุนธุรกิจ"
+msgstr "Prestito di supporto aziendale"
 
 #: .\templates\main\profile_dashboard.html:120
 msgid "FICO Credit Score"
-msgstr "คะแนนเครดิต FICO"
+msgstr "Punteggio di credito FICO"
 
 #: .\templates\main\profile_dashboard.html:130
 msgid "Recent Transaction Activities"
-msgstr "กิจกรรมการทำธุรกรรมล่าสุด"
+msgstr "Attività transazionali recenti"
 
 #: .\templates\main\profile_dashboard.html:131
 msgid "All"
-msgstr "ทั้งหมด"
+msgstr "Tutte"
 
 #: .\templates\main\profile_dashboard.html:142 .\templates\main\summary.html:73
 msgid "Amount"
-msgstr "จำนวนเงิน"
+msgstr "Importo"
 
 #: .\templates\main\profile_dashboard.html:154
 msgid "View Details"
-msgstr "ดูรายละเอียด"
+msgstr "Visualizza dettagli"
 
 #: .\templates\main\profile_dashboard.html:159
 msgid "No history yet"
-msgstr "ยังไม่มีประวัติ"
+msgstr "Ancora nessuna cronologia"
 
 #: .\templates\main\profile_dashboard.html:166
 msgid "Balance Flow"
-msgstr "การไหลเวียนสมดุล"
+msgstr "Flusso saldo"
 
 #: .\templates\main\profile_dashboard.html:187
 msgid "We're here to help you!"
-msgstr "เราอยู่ที่นี่เพื่อช่วยเหลือคุณ!"
+msgstr "Siamo qui per aiutarti!"
 
 #: .\templates\main\profile_dashboard.html:188
 msgid ""
 "Ask a question or file a support ticket, manage request, report and issues. "
 "Our support team will get"
 msgstr ""
-"ถามคำถามหรือยื่นตั๋วสนับสนุน จัดการคำขอ รายงาน และปัญหาต่างๆ "
-"ทีมสนับสนุนของเรายินดีให้ความช่วยเหลือ"
+"Fai una domanda o apri un ticket di supporto, gestisci richieste, segnalazioni e problemi. "
+"Il nostro team di supporto ti contatterà"
 
 #: .\templates\main\profile_dashboard.html:188
 msgid "back to you by email"
-msgstr "ติดต่อกลับหาคุณทางอีเมล"
+msgstr "via email"
 
 #: .\templates\main\profile_dashboard.html:191
 msgid "Get a Support Now"
-msgstr "รับการสนับสนุนทันที"
+msgstr "Ottieni supporto ora"
 
 #: .\templates\main\register.html:9
 msgid "Create Your Account"
-msgstr "สร้างบัญชีใหม่"
+msgstr "Crea il tuo account"
 
 #: .\templates\main\register.html:11
 msgid "Fill in the details below to create your new Floxix Bank account."
-msgstr "กรอกรายละเอียดด้านล่างเพื่อสร้างบัญชี Floxix Bank ใหม่ของคุณ"
+msgstr "Compila i seguenti dati per creare il tuo nuovo account Floxix Bank."
 
 #: .\templates\main\register.html:14 .\templates\main\register.html:15
 msgid "First Name"
-msgstr "ชื่อจริง"
+msgstr "Nome"
 
 #: .\templates\main\register.html:17 .\templates\main\register.html:18
 msgid "Last Name"
-msgstr "นามสกุล"
+msgstr "Cognome"
 
 #: .\templates\main\register.html:20 .\templates\main\register.html:21
 msgid "Email Address"
-msgstr "ที่อยู่อีเมล"
+msgstr "Indirizzo email"
 
 #: .\templates\main\register.html:26
 msgid "Date of Birth"
-msgstr "วันเกิด"
+msgstr "Data di nascita"
 
 #: .\templates\main\register.html:29
 msgid "Address"
-msgstr "ที่อยู่"
+msgstr "Indirizzo"
 
 #: .\templates\main\register.html:30
 msgid "Street Address, City, State, ZIP"
-msgstr "ที่อยู่ ถนน เมือง รัฐ รหัสไปรษณีย์"
+msgstr "Via, Città, Provincia, CAP"
 
 #: .\templates\main\register.html:33
 msgid "Create Password"
-msgstr "สร้างรหัสผ่าน"
+msgstr "Crea password"
 
 #: .\templates\main\register.html:35 .\templates\main\register.html:36
 msgid "Confirm Password"
-msgstr "ยืนยันรหัสผ่าน"
+msgstr "Conferma password"
 
 #: .\templates\main\register.html:38
 msgid "Register"
-msgstr "ลงทะเบียน"
+msgstr "Registrati"
 
 #: .\templates\main\services.html:10
 msgid ""
@@ -959,78 +965,82 @@ msgid ""
 "simpler, more efficient, and accessible, so you can focus on what matters "
 "most to you."
 msgstr ""
-"ที่ Floxix Internet Banking เรานำเสนอบริการทางการเงินที่หลากหลาย "
-"ซึ่งออกแบบมาเพื่อตอบสนองความต้องการเฉพาะของคุณ ตั้งแต่ธุรกรรมทางการเงินในชีวิตประจำวัน "
-"ไปจนถึงการวางแผนทางการเงินส่วนบุคคล เรามีเครื่องมือที่ปลอดภัยและใช้งานง่าย "
-"ที่จะช่วยให้คุณจัดการเงินได้อย่างมั่นใจ เป้าหมายของเราคือการทำให้การทำธุรกรรมทางการเงินง่ายขึ้น "
-"มีประสิทธิภาพมากขึ้น และเข้าถึงได้ง่ายขึ้น เพื่อให้คุณสามารถมุ่งเน้นไปที่สิ่งที่สำคัญสำหรับคุณมากที่สุด"
+"Presso Floxix Internet Banking offriamo una vasta gamma di servizi finanziari "
+"progettati per soddisfare le tue esigenze. Dalle operazioni bancarie quotidiane "
+"alla pianificazione finanziaria personalizzata, offriamo strumenti sicuri e "
+"facili da usare che ti aiutano a gestire i tuoi soldi con fiducia. Il nostro "
+"obiettivo è rendere il banking più semplice, efficiente e accessibile, così puoi "
+"concentrarti su ciò che conta di più per te."
 
 #: .\templates\main\settings.html:7
 msgid "Customer Service Department"
-msgstr "ฝ่ายบริการลูกค้า"
+msgstr "Dipartimento servizio clienti"
 
 #: .\templates\main\settings.html:12
 msgid "Please select customer service department"
-msgstr "กรุณาเลือกแผนกบริการลูกค้า"
+msgstr "Seleziona il dipartimento del servizio clienti"
 
 #: .\templates\main\settings.html:13
 msgid "Account management"
-msgstr "การจัดการบัญชี"
+msgstr "Gestione account"
 
 #: .\templates\main\settings.html:14
 msgid "Transaction support"
-msgstr "การสนับสนุนการทำธุรกรรม"
+msgstr "Supporto transazioni"
 
 #: .\templates\main\settings.html:15
 msgid "Loan assistance"
-msgstr "ความช่วยเหลือด้านสินเชื่อ"
+msgstr "Assistenza prestiti"
 
 #: .\templates\main\settings.html:16
 msgid "Credit card services"
-msgstr "บริการบัตรเครดิต"
+msgstr "Servizi carte di credito"
 
 #: .\templates\main\settings.html:17
 msgid "Customer inquiries"
-msgstr "การสอบถามลูกค้า"
+msgstr "Richieste clienti"
 
 #: .\templates\main\settings.html:18
 msgid "Complaint resolution"
-msgstr "การแก้ไขข้อร้องเรียน"
+msgstr "Risoluzione reclami"
 
 #: .\templates\main\settings.html:20 .\templates\main\settings.html:30
 msgid "Type your complaints"
-msgstr "พิมพ์ข้อร้องเรียนของคุณ"
+msgstr "Inserisci i tuoi reclami"
 
 #: .\templates\main\settings.html:59
 msgid "Save my activity log"
-msgstr "บันทึกบันทึกกิจกรรมของฉัน"
+msgstr "Salva il mio registro attività"
 
 #: .\templates\main\settings.html:60
 msgid ""
 "You can save all your activity logs including unusual activity detected."
-msgstr "คุณสามารถบันทึกกิจกรรมทั้งหมดของคุณรวมถึงกิจกรรมที่ผิดปกติที่ตรวจพบ"
+msgstr ""
+"Puoi salvare tutti i tuoi registri attività, inclusa l'attività insolita rilevata."
 
 #: .\templates\main\settings.html:63
 msgid "See recent activity"
-msgstr "ดูกิจกรรมล่าสุด"
+msgstr "Vedi attività recenti"
 
 #: .\templates\main\settings.html:70
 msgid "Security pin code"
-msgstr "รหัส PIN เพื่อความปลอดภัย"
+msgstr "Codice PIN di sicurezza"
 
 #: .\templates\main\settings.html:71
 msgid ""
 "You can set your pin code. We will ask you this code during the login "
 "attempts and transactions."
-msgstr "คุณสามารถตั้งรหัส PIN ได้ เราจะขอรหัสนี้ระหว่างการเข้าสู่ระบบและการทำธุรกรรม"
+msgstr ""
+"Puoi impostare il tuo codice PIN. Ti verrà richiesto questo codice durante i tentativi "
+"di accesso e le transazioni."
 
 #: .\templates\main\settings.html:80
 msgid "2FA Authentication"
-msgstr "การยืนยันตัวตน 2FA"
+msgstr "Autenticazione 2FA"
 
 #: .\templates\main\settings.html:80
 msgid "Enabled"
-msgstr "เปิดใช้งานแล้ว"
+msgstr "Abilitato"
 
 #: .\templates\main\settings.html:81
 msgid ""
@@ -1038,8 +1048,9 @@ msgid ""
 "enter not only your password but also a special code using 2FA app. You can "
 "receive this code by mobile app."
 msgstr ""
-"รักษาความปลอดภัยบัญชีของคุณด้วยระบบรักษาความปลอดภัย 2FA เมื่อเปิดใช้งานแล้ว "
-"คุณต้องกรอกรหัสผ่านและรหัสพิเศษผ่านแอป 2FA คุณสามารถรับรหัสนี้ผ่านแอปมือถือได้"
+"Proteggi il tuo account con la sicurezza 2FA. Quando è attivata, devi inserire "
+"non solo la password ma anche un codice speciale fornito da un'app 2FA. Puoi ricevere "
+"questo codice tramite app mobile."
 
 #: .\templates\main\settings.html:89
 msgid "Browser"
@@ -1047,129 +1058,130 @@ msgstr "Browser"
 
 #: .\templates\main\settings.html:92
 msgid "IP"
-msgstr "ไอพี"
+msgstr "IP"
 
 #: .\templates\main\settings.html:95
 msgid "Time"
-msgstr "เวลา"
+msgstr "Ora"
 
 #: .\templates\main\settings.html:101
 msgid "Google Chrome"
-msgstr "กูเกิล โครม"
+msgstr "Google Chrome"
 
 #: .\templates\main\settings.html:106
 msgid "Mozilla Firefox"
-msgstr "มอซิลลา ไฟร์ฟอกซ์"
+msgstr "Mozilla Firefox"
 
 #: .\templates\main\settings.html:111
 msgid "Safari"
-msgstr "ซาฟารี"
+msgstr "Safari"
 
 #: .\templates\main\settings.html:116
 msgid "Microsoft Edge"
-msgstr "ไมโครซอฟต์ เอดจ์"
+msgstr "Microsoft Edge"
 
 #: .\templates\main\summary.html:61
 msgid "Ref"
-msgstr "อ้าง"
+msgstr "Rif."
 
 #: .\templates\main\summary.html:65
 msgid "Type"
-msgstr "พิมพ์"
+msgstr "Tipo"
 
 #: .\templates\main\summary.html:69
 msgid "Scope"
-msgstr "ขอบเขต"
+msgstr "Ambito"
 
 #: .\templates\main\summary.html:77
 msgid "Date"
-msgstr "วันที่"
+msgstr "Data"
 
 #: .\templates\main\summary.html:81
 msgid "Description"
-msgstr "คำอธิบาย"
+msgstr "Descrizione"
 
 #: .\templates\main\summary.html:85
 msgid "Status"
-msgstr "สถานะ"
+msgstr "Stato"
 
 #: .\templates\main\summary.html:119
 msgid "Monthly Savings Deposit"
-msgstr "เงินฝากออมทรัพย์รายเดือน"
+msgstr "Versamento mensile di risparmio"
 
 #: .\templates\main\summary.html:130
 msgid "Office Rent Payment"
-msgstr "การชำระค่าเช่าสำนักงาน"
+msgstr "Pagamento affitto ufficio"
 
 #: .\templates\main\summary.html:141
 msgid "Payment to Supplier"
-msgstr "การชำระเงินให้กับซัพพลายเออร์"
+msgstr "Pagamento al fornitore"
 
 #: .\templates\main\summary.html:152
 msgid "Child Health Care"
-msgstr "การดูแลสุขภาพเด็ก"
+msgstr "Assistenza sanitaria per bambini"
 
 #: .\templates\main\summary.html:162
 msgid "Prev"
-msgstr "ก่อนหน้า"
+msgstr "Precedente"
 
 #: .\templates\main\summary.html:172 .\templates\main\summary.html:174
 msgid "Next"
-msgstr "ต่อไป"
+msgstr "Successivo"
 
 #: .\templates\main\transfer_details.html:20
 msgid "Transaction"
-msgstr "ธุรกรรม"
+msgstr "Transazione"
 
 #: .\templates\main\transfer_details.html:24
 msgid "Your transaction was completed successfully."
-msgstr "การทำธุรกรรมของคุณเสร็จสมบูรณ์แล้ว"
+msgstr "La tua transazione è stata completata con successo."
 
 #: .\templates\main\transfer_details.html:26
 msgid "Your transaction is pending. Please wait for confirmation."
-msgstr "ธุรกรรมของคุณอยู่ระหว่างดำเนินการ โปรดรอการยืนยัน"
+msgstr "La tua transazione è in sospeso. Attendi la conferma."
 
 #: .\templates\main\transfer_details.html:28
 msgid "Transaction status unknown."
-msgstr "สถานะธุรกรรมไม่ทราบ"
+msgstr "Stato della transazione sconosciuto."
 
 #: .\templates\main\transfer_details.html:35
 msgid "Transaction Details"
-msgstr "รายละเอียดการทำธุรกรรม"
+msgstr "Dettagli transazione"
 
 #: .\templates\main\transfer_details.html:38
 msgid "Holder Name:"
-msgstr "ชื่อผู้ถือ"
+msgstr "Nome intestatario:"
 
 #: .\templates\main\transfer_details.html:42
 msgid "Amount:"
-msgstr "จำนวนเงิน"
+msgstr "Importo:"
 
 #: .\templates\main\transfer_details.html:46
 msgid "Account Number:"
-msgstr "หมายเลขบัญชี"
+msgstr "Numero di conto:"
 
 #: .\templates\main\transfer_details.html:50
 msgid "Bank Name:"
-msgstr "ชื่อธนาคาร"
+msgstr "Nome banca:"
 
 #: .\templates\main\transfer_details.html:54
 msgid "Description:"
-msgstr "คำอธิบาย"
+msgstr "Descrizione:"
 
 #: .\templates\main\transfer_details.html:58
 msgid "Date:"
-msgstr "วันที่"
+msgstr "Data:"
 
 #: .\templates\main\transfer_details.html:66
 msgid ""
 "If you did not authorize this transaction, please contact us immediately."
-msgstr "หากคุณไม่ได้อนุญาตการทำธุรกรรมนี้ โปรดติดต่อเราทันที"
+msgstr ""
+"Se non hai autorizzato questa transazione, contattaci immediatamente."
 
 #: .\templates\main\transfer_details.html:67
 msgid "Thanks,"
-msgstr "ขอบคุณ"
+msgstr "Grazie,"
 
 #: .\templates\main\transfer_details.html:67
 msgid "Floxix Support Team"
-msgstr "ทีมสนับสนุน Floxix"
+msgstr "Team di supporto Floxix"

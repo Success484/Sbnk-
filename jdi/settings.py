@@ -128,6 +128,7 @@ LANGUAGES = [
     ('pt-br', 'Brazilian Portuguese'),
     ('ko', 'Korean'),
     ('ja', 'Japanese'),
+    ("it", "Italiano"),
 ]
 
 
