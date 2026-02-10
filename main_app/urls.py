@@ -24,8 +24,8 @@ urlpatterns=[
     path('account/user/profile/details/transaction/loan/', views.loan, name='loan'),
     path('account/user/profile/details/transaction/kyc/', views.kyc, name='kyc'),
     path('account/user/profile/details/transaction/setting/', views.setting, name='setting'),
-    path('register/', views.register_view, name='register'),
+    # path('register/', views.register_view, name='register'),
     path('login/', views.CustomLoginView.as_view(), name='login'),
-    path('verify-pin/', views.verify_pin, name='verify_pin'),    
+    # path('verify-pin/', views.verify_pin, name='verify_pin'),    
     path('logout/', views.logout_view, name='logout'),
 ]

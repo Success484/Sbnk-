@@ -170,13 +170,13 @@ LOGOUT_REDIRECT_URL='home'
 LOGIN_URL = 'login'
 
 # ✅ Correct SendGrid setup
-EMAIL_BACKEND = env('EMAIL_BACKEND')
+# EMAIL_BACKEND = env('EMAIL_BACKEND')
 
-# Use environment variable instead of hardcoding
-SENDGRID_API_KEY = env('SENDGRID_API_KEY')
+# # Use environment variable instead of hardcoding
+# SENDGRID_API_KEY = env('SENDGRID_API_KEY')
 
-SENDGRID_SANDBOX_MODE_IN_DEBUG = False
-SENDGRID_ECHO_TO_STDOUT = True
+# SENDGRID_SANDBOX_MODE_IN_DEBUG = False
+# SENDGRID_ECHO_TO_STDOUT = True
 
-# Optional "From" email (should be verified in SendGrid)
-DEFAULT_FROM_EMAIL = env('DEFAULT_FROM_EMAIL')
+# # Optional "From" email (should be verified in SendGrid)
+# DEFAULT_FROM_EMAIL = env('DEFAULT_FROM_EMAIL')

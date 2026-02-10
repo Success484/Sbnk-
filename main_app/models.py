@@ -104,7 +104,7 @@ class IMFVerification(models.Model):
     is_verified = models.BooleanField(default=False)
 
     def __str__(self):
-        return f"IMF Code for {self.user.email}"
+        return f"IMF Code for {self.user.first_name} {self.user.last_name}"
     
     
 class UserProfile(models.Model):
